@@ -1,0 +1,5547 @@
+{'time': <class 'netCDF4._netCDF4.Variable'>
+float64 time(time)
+    units: seconds since 2013-01-01 00:00:00 +0000
+    standard_name: time
+    strptime_format: seconds since %F %T %z
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'TIME': <class 'netCDF4._netCDF4.Variable'>
+float32 TIME(time)
+    long_name: Time HHMMSS (GMT)
+    Status: Derived Variable
+    units: HHMMSS
+    Package: get_data1
+    matlab_name: TIME
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'DATE': <class 'netCDF4._netCDF4.Variable'>
+float32 DATE(time)
+    long_name: Date yymmdd (GMT)
+    Status: Derived Variable
+    units: yyyymmdd
+    Package: get_data1
+    matlab_name: DATE
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'HOUR': <class 'netCDF4._netCDF4.Variable'>
+float32 HOUR(time)
+    long_name: Hour from midnight (GMT)
+    Status: Derived Variable
+    units: hours
+    Package: get_data1
+    matlab_name: HOUR
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'MINUTE': <class 'netCDF4._netCDF4.Variable'>
+float32 MINUTE(time)
+    long_name: Minute from Beginning of HOUR
+    Status: Derived Variable
+    units: minutes
+    Package: get_data1
+    matlab_name: MINUTE
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'SECOND': <class 'netCDF4._netCDF4.Variable'>
+float32 SECOND(time)
+    long_name: SECOND from Beginning of SECOND
+    Status: Derived Variable
+    units: seconds
+    Package: get_data1
+    matlab_name: SECOND
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'TIME14D': <class 'netCDF4._netCDF4.Variable'>
+float64 TIME14D(time)
+    long_name: TIME yyyymmddhhmmss GMT
+    Status: Derived Variable
+    units: yyyymmddhhmmss
+    Package: get_data1
+    matlab_name: TIME14D
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'pmb': <class 'netCDF4._netCDF4.Variable'>
+float32 pmb(time)
+    long_name: Static Pressure (Rosemount 1201F1B4A1A)
+    Status: Derived Variable
+    units: millibar
+    SampleRate: 100
+    Package: get_data1
+    matlab_name: PMB1
+    raw_name: PMB1
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+    pcor: Corrected for static defect
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ps_weston': <class 'netCDF4._netCDF4.Variable'>
+float32 ps_weston(time)
+    long_name: Static Pressure (Weston Digital)
+    Status: Derived Variable
+    units: millibar
+    SampleRate: 5
+    Package: get_data1
+    matlab_name: PWESTON1
+    raw_name: PWESTON1
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+    BadValues: 0
+    pcor: Corrected for static defect
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cabinp': <class 'netCDF4._netCDF4.Variable'>
+float32 cabinp(time)
+    long_name: cabin pressure Rosemount 1332
+    Status: Raw Variable
+    units: millibar
+    Package: get_misc1
+    matlab_name: CABINP1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ps_hads_a': <class 'netCDF4._netCDF4.Variable'>
+float32 ps_hads_a(time)
+    long_name: Static Pressure (Rosemount 1501 High Accuracy Digital Sensing Module A)
+    Status: Derived Variable
+    units: millibar
+    SampleRate: 100
+    Package: get_hads1
+    matlab_name: PHADSA1
+    raw_name: PHADSA1
+    StaticDefect: Corrected
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    missorbad1000: 0
+    CalibMethod: UW calibration used
+    pcor: Corrected for static defect
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ps_hads_b': <class 'netCDF4._netCDF4.Variable'>
+float32 ps_hads_b(time)
+    long_name: Static Pressure (Rosemount 1501 High Accuracy Digital Sensing Module B)
+    Status: Derived Variable
+    units: millibar
+    SampleRate: 100
+    Package: get_hads1
+    matlab_name: PHADSB1
+    raw_name: PHADSB1
+    StaticDefect: Corrected
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    missorbad1000: 0
+    CalibMethod: UW calibration used
+    pcor: Corrected for static defect
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'trf': <class 'netCDF4._netCDF4.Variable'>
+float32 trf(time)
+    long_name: Static Temperature (In-house Reverse Flow)
+    Status: Derived Variable
+    units: Celsius
+    Package: cvwind1
+    matlab_name: trf1
+    raw_name: TRF1
+    RecoveryCoefficient: 0.6425
+    StaticDefect: Corrected
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'trose': <class 'netCDF4._netCDF4.Variable'>
+float32 trose(time)
+    long_name: Static Temperature (Rosemount 102)
+    Status: Derived Variable
+    units: Celsius
+    Package: cvwind1
+    matlab_name: trmt1
+    raw_name: TROSE1
+    RecoveryCoefficient: 0.97
+    StaticDefect: Corrected
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'tdp': <class 'netCDF4._netCDF4.Variable'>
+float32 tdp(time)
+    long_name: Dew Point Temperature
+    instrument: EdgeTech Vigilant model 137
+    Status: Derived Variable
+    units: Celsius
+    Package: get_data1
+    matlab_name: TDP1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'mr': <class 'netCDF4._netCDF4.Variable'>
+float32 mr(time)
+    long_name: Mixing ratio
+    Status: Derived Variable
+    units: gram/kgram
+    Package: get_misc1
+    matlab_name: MIXRATIO1
+    StaticDefect: Corrected
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'rh': <class 'netCDF4._netCDF4.Variable'>
+float32 rh(time)
+    long_name: Relative Humidity
+    Status: Derived Variable
+    units: percent
+    Package: get_misc1
+    matlab_name: RH1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ralt3': <class 'netCDF4._netCDF4.Variable'>
+float32 ralt3(time)
+    long_name: Radar altitude (APN232)
+    Status: Derived Variable
+    units: meter
+    Package: get_232ralt1
+    matlab_name: RALT3_1
+    Dependencies: Z232F
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ralt3qc': <class 'netCDF4._netCDF4.Variable'>
+int8 ralt3qc(time)
+    long_name: Radar altitude (APN232) quality flag
+    Status: Derived Variable
+    units: bit
+    Package: get_232ralt1
+    matlab_name: RALT3QC1
+    Dependencies: Z232F
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -128
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'licort': <class 'netCDF4._netCDF4.Variable'>
+float32 licort(time)
+    long_name: Licor Temperature
+    Status: Derived Variable
+    units: Celsius
+    Package: get_data1
+    matlab_name: LICORT1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'licorp': <class 'netCDF4._netCDF4.Variable'>
+float32 licorp(time)
+    long_name: Licor Pressure
+    Status: Derived Variable
+    units: kPa
+    Package: get_data1
+    matlab_name: LICORP1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'co21s': <class 'netCDF4._netCDF4.Variable'>
+float32 co21s(time)
+    long_name: Licor CO2 concentration
+    Status: Derived Variable
+    units: volt
+    Package: get_data1
+    matlab_name: CO21S1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'h2o1s': <class 'netCDF4._netCDF4.Variable'>
+float32 h2o1s(time)
+    long_name: Licor H2O concentration
+    Status: Derived Variable
+    units: volt
+    Package: get_data1
+    matlab_name: H2O1S1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'co2ml': <class 'netCDF4._netCDF4.Variable'>
+float32 co2ml(time)
+    long_name: CO2 mole fraction LICOR
+    Status: Derived Variable
+    units: umol/mole
+    Package: get_licor1
+    matlab_name: co2ml1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'h2oml': <class 'netCDF4._netCDF4.Variable'>
+float32 h2oml(time)
+    long_name: H2O mole fraction LICOR
+    Status: Derived Variable
+    units: mmol/mole
+    Package: get_licor1
+    matlab_name: h2oml1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'h2omx': <class 'netCDF4._netCDF4.Variable'>
+float32 h2omx(time)
+    long_name: H2O mixing ratio LICOR
+    Status: Derived Variable
+    units: gram/kgram
+    Package: get_licor1
+    matlab_name: h2omx1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'h2oms': <class 'netCDF4._netCDF4.Variable'>
+float32 h2oms(time)
+    long_name: H2O specific humidity LICOR
+    Status: Derived Variable
+    units: gram/kgram
+    Package: get_licor1
+    matlab_name: h2oms1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'tdplicor': <class 'netCDF4._netCDF4.Variable'>
+float32 tdplicor(time)
+    long_name: Dew point temperature from LICOR H2O mixing ratio
+    Status: Derived Variable
+    units: Celsius
+    Package: get_licor1
+    matlab_name: tdplicor1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'co2mx': <class 'netCDF4._netCDF4.Variable'>
+float32 co2mx(time)
+    long_name: CO2 mixing ratio LICOR
+    Status: Derived Variable
+    units: ugram/gram
+    Package: get_licor1
+    matlab_name: co2mx1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'co2ms': <class 'netCDF4._netCDF4.Variable'>
+float32 co2ms(time)
+    long_name: CO2 specific humidity LICOR
+    Status: Derived Variable
+    units: ugram/gram
+    Package: get_licor1
+    matlab_name: co2ms1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'co2pbmx': <class 'netCDF4._netCDF4.Variable'>
+float32 co2pbmx(time)
+    long_name: CO2 mixing ratio LICOR (corrected for press broading)
+    Status: Derived Variable
+    units: ugram/gram
+    Package: get_licor1
+    matlab_name: co2pbmx1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'co2pbmld': <class 'netCDF4._netCDF4.Variable'>
+float32 co2pbmld(time)
+    long_name: CO2 mole fraction (dry) LICOR (corrected for press broading)
+    Status: Derived Variable
+    units: umol/mole
+    Package: get_licor1
+    matlab_name: co2pbmld1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'aias': <class 'netCDF4._netCDF4.Variable'>
+float32 aias(time)
+    long_name: Indicated airspeed (boom pitot)
+    Status: Derived Variable
+    units: knots
+    Package: get_misc1
+    matlab_name: aias1
+    raw_name: aias1
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+    VarWithBIAS: 0.04735735839763044
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'bias': <class 'netCDF4._netCDF4.Variable'>
+float32 bias(time)
+    long_name: Indicated airspeed (co-pilot pitot)
+    Status: Derived Variable
+    units: knots
+    Package: get_misc1
+    matlab_name: bias1
+    raw_name: BIAS1
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'dpr': <class 'netCDF4._netCDF4.Variable'>
+float32 dpr(time)
+    long_name: Rosemount 1332B1
+    units: millibar
+    CalibrationCoefficients: [-1.7669e+02  2.1280e-02]
+    SampleRate: 100
+    SerialNumber: 20007
+    module: !IP330_1
+    channel: 7
+    type: analog
+    Package: get_misc1
+    matlab_name: DPR1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'dpb': <class 'netCDF4._netCDF4.Variable'>
+float32 dpb(time)
+    long_name: Rosemount 1332B1
+    units: millibar
+    CalibrationCoefficients: [-1.7277e+02  2.0860e-02]
+    CalibrationDate: 2/16/2000
+    SampleRate: 100
+    SerialNumber: 19995
+    module: !IP330_1
+    channel: 6
+    type: analog
+    Package: get_misc1
+    matlab_name: DPB1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'dpa': <class 'netCDF4._netCDF4.Variable'>
+float32 dpa(time)
+    long_name: Rosemount 1332B1
+    units: millibar
+    CalibrationCoefficients: [ 1.7218e+02 -2.1060e-02]
+    CalibrationDate: 2/16/2000
+    SampleRate: 100
+    SerialNumber: 19996
+    module: !IP330_1
+    channel: 5
+    type: analog
+    Package: get_misc1
+    matlab_name: DPA1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AIAS': <class 'netCDF4._netCDF4.Variable'>
+float32 AIAS(time)
+    long_name: Rosemount 1332B1
+    units: millibar
+    CalibrationCoefficients: [ 1.7218e+02 -2.1060e-02]
+    CalibrationDate: 2/16/2000
+    SampleRate: 100
+    SerialNumber: 19996
+    module: !IP330_1
+    channel: 5
+    type: analog
+    Package: get_misc1
+    matlab_name: AIAS1
+    raw_name: AIAS1
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'boom_pcor': <class 'netCDF4._netCDF4.Variable'>
+float32 boom_pcor(time)
+    long_name: Static pressure correction from boom calculation
+    units: mb
+    Package: cone_pcor
+    matlab_name: pcorc
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'z': <class 'netCDF4._netCDF4.Variable'>
+float32 z(time)
+    long_name: Pressure altitude (Std Atm)
+    Status: Derived Variable
+    units: meters
+    Package: get_misc1
+    matlab_name: PALT1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'PALT': <class 'netCDF4._netCDF4.Variable'>
+float32 PALT(time)
+    long_name: Pressure altitude (Std Atm)
+    Status: Derived Variable
+    units: meters
+    Package: cvwind1
+    matlab_name: PALT1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ztrue': <class 'netCDF4._netCDF4.Variable'>
+float32 ztrue(time)
+    long_name: Altitude (Hypsometric)
+    Status: Derived Variable
+    units: meters
+    Package: cvwind1
+    matlab_name: ZTRUE1
+    raw_name: unknown
+    StaticDefect: Corrected
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    OffsetApplied: From GALT
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'turb': <class 'netCDF4._netCDF4.Variable'>
+float32 turb(time)
+    long_name: MRI Eddy dissipation rate ^1/3 u-component (corrected)
+    Status: Derived Variable
+    units: MKS
+    Package: get_misc1
+    matlab_name: turb1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hlat': <class 'netCDF4._netCDF4.Variable'>
+float32 hlat(time)
+    long_name: Latitude (uncorrected, Honeywell IRS)
+    Status: Derived Variable
+    units: degree_N
+    Package: get_irs1
+    offset: 0.0
+    matlab_name: HLAT1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hlon': <class 'netCDF4._netCDF4.Variable'>
+float32 hlon(time)
+    long_name: Lonirsgitude (uncorrected, Honeywell IRS)
+    Status: Derived Variable
+    units: degree_E
+    Package: get_irs1
+    offset: 0.0
+    matlab_name: HLON1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hpitch': <class 'netCDF4._netCDF4.Variable'>
+float32 hpitch(time)
+    long_name: Pitch angle (Honeywell)
+    Status: Derived Variable
+    units: degree
+    Package: get_irs1
+    matlab_name: HPITCH1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hroll': <class 'netCDF4._netCDF4.Variable'>
+float32 hroll(time)
+    long_name: Roll angle (Honeywell)
+    Status: Derived Variable
+    units: degree
+    Package: get_irs1
+    matlab_name: HROLL1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hthead': <class 'netCDF4._netCDF4.Variable'>
+float32 hthead(time)
+    long_name: Heading angle (Honeywell, true)
+    Status: Derived Variable
+    units: degree_T
+    Package: get_irs1
+    matlab_name: HTHEAD1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hgs': <class 'netCDF4._netCDF4.Variable'>
+float32 hgs(time)
+    long_name: Ground Speed (Honeywell IRS, uncorrected)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: HGS1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hpitchr': <class 'netCDF4._netCDF4.Variable'>
+float32 hpitchr(time)
+    long_name: Pitch angle rate (Honeywell) 
+    Status: Derived Variable
+    units: radian/sec
+    Package: get_irs1
+    matlab_name: HPITCHR1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hrollr': <class 'netCDF4._netCDF4.Variable'>
+float32 hrollr(time)
+    long_name: Roll angle rate (Honeywell)
+    Status: Derived Variable
+    units: radian/sec
+    Package: get_irs1
+    matlab_name: HROLLR1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hyawr': <class 'netCDF4._netCDF4.Variable'>
+float32 hyawr(time)
+    long_name: Yaw angle rat (Honeywell)
+    Status: Derived Variable
+    units: radian/sec
+    Package: get_irs1
+    matlab_name: HYAWR1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hlata': <class 'netCDF4._netCDF4.Variable'>
+float32 hlata(time)
+    long_name: Lateral acceleration, body axis (Honeywell)
+    Status: Derived Variable
+    units: g
+    Package: get_irs1
+    matlab_name: HLATA1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hlonga': <class 'netCDF4._netCDF4.Variable'>
+float32 hlonga(time)
+    long_name: Longitudinal acceleration, body axis (Honeywell)
+    Status: Derived Variable
+    units: g
+    Package: get_irs1
+    matlab_name: HLONGA1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hnorma': <class 'netCDF4._netCDF4.Variable'>
+float32 hnorma(time)
+    long_name: Normal acceleration, body axis (Honeywell)
+    Status: Derived Variable
+    units: g
+    Package: get_irs1
+    matlab_name: HNORMA1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hewvel': <class 'netCDF4._netCDF4.Variable'>
+float32 hewvel(time)
+    long_name: Inertial ground speed - Honeywell (E-W component, uncorrected)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: HEWVEL1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hnsvel': <class 'netCDF4._netCDF4.Variable'>
+float32 hnsvel(time)
+    long_name: Inertial ground speed - Honeywell (N-S component, uncorrected)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: HNSVEL1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hivs': <class 'netCDF4._netCDF4.Variable'>
+float32 hivs(time)
+    long_name: Inertial vertical speed (Honeywell)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: HIVS1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hia': <class 'netCDF4._netCDF4.Variable'>
+float32 hia(time)
+    long_name: Inertial altitude (Honeywell)
+    Status: Derived Variable
+    units: m
+    Package: get_irs1
+    matlab_name: HIA1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hacz3': <class 'netCDF4._netCDF4.Variable'>
+float32 hacz3(time)
+    long_name: Vertical acceleration (Honewyell, inertial-baro)
+    Status: Derived Variable
+    units: m/s2
+    Package: get_irs1
+    matlab_name: acz3s
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hwp3': <class 'netCDF4._netCDF4.Variable'>
+float32 hwp3(time)
+    long_name: Vertical speed (Honeywell, inertial-baro)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: hwp3_1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hi3': <class 'netCDF4._netCDF4.Variable'>
+float32 hi3(time)
+    long_name: Height (Honeywell, inertial-baro)
+    Status: Derived Variable
+    units: meters
+    Package: get_irs1
+    matlab_name: hi3s
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'uerr': <class 'netCDF4._netCDF4.Variable'>
+float32 uerr(time)
+    long_name: Velocity error, x-component (Honewell/Ashtech corrected)
+    Status: GPS processing enabled
+    units: m/s
+    Package: get_gps1
+    matlab_name: uerr1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'verr': <class 'netCDF4._netCDF4.Variable'>
+float32 verr(time)
+    long_name: Velocity error, y-component (Honewell/Ashtech corrected)
+    Status: GPS processing enabled
+    units: m/s
+    Package: get_gps1
+    matlab_name: verr1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'wnobaro': <class 'netCDF4._netCDF4.Variable'>
+float32 wnobaro(time)
+    long_name: Vertical speed (Honeywell, alternate to inertial-baro)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: wnb1
+    note: wnb1 is used in hw (Honeywell-based) vertical wind calc
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hu': <class 'netCDF4._netCDF4.Variable'>
+float32 hu(time)
+    long_name: Wind component (East) - Honeywell 
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: UWIND1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    Correction: GPS velocity correction applied
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hv': <class 'netCDF4._netCDF4.Variable'>
+float32 hv(time)
+    long_name: Wind component (North) - Honeywell 
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: VWIND1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    Correction: GPS velocity correction applied
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hw': <class 'netCDF4._netCDF4.Variable'>
+float32 hw(time)
+    long_name: Wind component (Vertical) - Honeywell 
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: WWIND1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hux': <class 'netCDF4._netCDF4.Variable'>
+float32 hux(time)
+    long_name: Wind component (Honeywell, horizontal longitudinal)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: hux1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hvy': <class 'netCDF4._netCDF4.Variable'>
+float32 hvy(time)
+    long_name: Wind component (Honeywell, horizontal lateral)
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: hvy1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hwf': <class 'netCDF4._netCDF4.Variable'>
+float32 hwf(time)
+    long_name: Wind component (Vertical, high pass filtered) - Honeywell 
+    Status: Derived Variable
+    units: m/s
+    Package: get_irs1
+    matlab_name: WWINDF1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'htrk': <class 'netCDF4._netCDF4.Variable'>
+float32 htrk(time)
+    long_name: Track angle (Honeywell IRS uncorrected)
+    Status: Derived Variable
+    units: degree_T
+    Package: get_irs1
+    matlab_name: HTRK1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hwdir': <class 'netCDF4._netCDF4.Variable'>
+float32 hwdir(time)
+    long_name: Wind direction, from (Honeywell)
+    Status: Derived Variable
+    units: degree_T
+    Package: cvwind1
+    matlab_name: hwdir1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    Correction: GPS velocity correction applied
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'hwmag': <class 'netCDF4._netCDF4.Variable'>
+float32 hwmag(time)
+    long_name: Wind magnitude (Honeywell)
+    Status: Derived Variable
+    units: m/s
+    Package: cvwind1
+    matlab_name: hwmag1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    Correction: GPS velocity correction applied
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'tas': <class 'netCDF4._netCDF4.Variable'>
+float32 tas(time)
+    long_name: True Airspeed 
+    Status: Derived Variable
+    units: m/s
+    Package: cvwind1
+    matlab_name: tas1
+    StaticDefect: Corrected
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    deltap_used: Uses AIAS + full boom equations
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'TASX': <class 'netCDF4._netCDF4.Variable'>
+float32 TASX(time)
+    long_name: True Airspeed (same as tas)
+    Status: Derived Variable
+    units: m/s
+    Package: cvwind1
+    matlab_name: tas1
+    StaticDefect: Corrected
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'alpha': <class 'netCDF4._netCDF4.Variable'>
+float32 alpha(time)
+    long_name: Attack angle (corrected)
+    Status: Derived Variable
+    units: radians
+    Package: cvwind1
+    matlab_name: alpha1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'beta': <class 'netCDF4._netCDF4.Variable'>
+float32 beta(time)
+    long_name: Sideslip angle (corrected)
+    Status: Derived Variable
+    units: radians
+    Package: cvwind1
+    matlab_name: beta1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ralt1': <class 'netCDF4._netCDF4.Variable'>
+float32 ralt1(time)
+    long_name: Radar altitude (King)
+    Status: Derived Variable
+    units: meter
+    Package: get_misc1
+    matlab_name: RALT1_1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'LAT': <class 'netCDF4._netCDF4.Variable'>
+float32 LAT(time)
+    long_name: Latitude (Applanix post-processed) 
+    Status: Derived Variable
+    units: degree_N
+    Package: get_410data
+    matlab_name: AVlat1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'LON': <class 'netCDF4._netCDF4.Variable'>
+float32 LON(time)
+    long_name: Longitude (Applanix post-processed) 
+    Status: Derived Variable
+    units: degree_E
+    Package: get_410data
+    matlab_name: AVlon1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'LATC': <class 'netCDF4._netCDF4.Variable'>
+float64 LATC(time)
+    long_name: Latitude (Applanix post-processed) 
+    Status: Derived Variable
+    units: degree_N
+    Package: get_410data
+    matlab_name: LATC1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'LONC': <class 'netCDF4._netCDF4.Variable'>
+float64 LONC(time)
+    long_name: Longitude (Applanix post-processed) 
+    Status: Derived Variable
+    units: degree_E
+    Package: get_410data
+    matlab_name: LONC1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'GLAT': <class 'netCDF4._netCDF4.Variable'>
+float32 GLAT(time)
+    long_name: Latitude  (Ashtech GPS)
+    Status: Derived Variable
+    units: degree_N
+    Package: get_gps1
+    matlab_name: glat1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'GLON': <class 'netCDF4._netCDF4.Variable'>
+float32 GLON(time)
+    long_name: Longitude  (Ashtech GPS)
+    Status: Derived Variable
+    units: degree_E
+    Package: get_gps1
+    matlab_name: glon1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'GALT': <class 'netCDF4._netCDF4.Variable'>
+float32 GALT(time)
+    long_name: Altitude  (Ashtech GPS)
+    Status: Derived Variable
+    units: m
+    Package: get_gps1
+    matlab_name: galt1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'glat': <class 'netCDF4._netCDF4.Variable'>
+float32 glat(time)
+    long_name: Latitude  (Ashtech GPS)
+    Status: GPS processing enabled
+    units: degree_N
+    Package: get_gps1
+    matlab_name: glat1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'glon': <class 'netCDF4._netCDF4.Variable'>
+float32 glon(time)
+    long_name: Longitude  (Ashtech GPS)
+    Status: GPS processing enabled
+    units: degree_E
+    Package: get_gps1
+    matlab_name: glon1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'galt': <class 'netCDF4._netCDF4.Variable'>
+float32 galt(time)
+    long_name: Altitude  (Ashtech GPS)
+    Status: GPS processing enabled
+    units: m
+    Package: get_gps1
+    matlab_name: galt1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'gvns': <class 'netCDF4._netCDF4.Variable'>
+float32 gvns(time)
+    long_name: Ground velocity component North (Ashtech GPS)
+    Status: Derived Variable
+    units: m/s
+    Package: get_gps1
+    matlab_name: gvns1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'gvew': <class 'netCDF4._netCDF4.Variable'>
+float32 gvew(time)
+    long_name: Ground velocity component East (Ashtech GPS)
+    Status: Derived Variable
+    units: m/s
+    Package: get_gps1
+    matlab_name: gvew1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'gvz': <class 'netCDF4._netCDF4.Variable'>
+float32 gvz(time)
+    long_name: Ground velocity component Vertical (Ashtech GPS)
+    Status: Derived Variable
+    units: m/s
+    Package: get_gps1
+    matlab_name: gvz1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'topo': <class 'netCDF4._netCDF4.Variable'>
+float32 topo(time)
+    long_name: Topography from database
+    Status: Derived Variable
+    units: m
+    database: aster
+    datum: WGS84
+    Package: get_topo1
+    matlab_name: talt1
+    missing_value: -32768
+    Dependencies: 2 HLAT HLON
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'lwc100': <class 'netCDF4._netCDF4.Variable'>
+float32 lwc100(time)
+    long_name: Liquid water content (DMT100)
+    Status: Derived Variable
+    units: gram/m3
+    Package: get_misc1
+    matlab_name: LWC100_1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0.0
+    MinWireTempC: 368.0
+    MaxWireTempC: 373.0
+    ResidStdev: 0.034166445155318644
+    WireTempCoeff: [ -0.17183718 103.8403636 ]
+    ClearAirFitRValue: 0.9973337191582835
+    EstClearAirPercent: 37.4
+    WireTempModel: Qc model
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'rlwc': <class 'netCDF4._netCDF4.Variable'>
+float32 rlwc(time)
+    long_name: Liquid water content from Rosemount 871 icing probe
+    Category: Derived
+    units: gram/m3
+    SampleRate: 100
+    module: !IP330_1
+    channel: 16
+    type: analog
+    Package: get_icing1
+    matlab_name: RLWC1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'rid_cycles': <class 'netCDF4._netCDF4.Variable'>
+float32 rid_cycles(time)
+    long_name: Icing cycles from Rosemount 871 icing detector
+    Category: Derived
+    units: count
+    SampleRate: 100
+    module: !IP330_1
+    channel: 16
+    type: analog
+    Package: get_icing1
+    matlab_name: NRIP1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'pvmlwc': <class 'netCDF4._netCDF4.Variable'>
+float32 pvmlwc(time)
+    long_name: PVM-100A (Gerber) liquid water content
+    Category: Derived
+    units: gram/m3
+    SampleRate: 100
+    module: !IP330_1
+    channel: 16
+    type: analog
+    Package: get_data1
+    matlab_name: PVMLWC1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+    Baseline: 0.18749371
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'pvmre_c': <class 'netCDF4._netCDF4.Variable'>
+float32 pvmre_c(time)
+    long_name: PVM-100A (Gerber) effective radius (computed from lwc and psa)
+    Category: Derived
+    units: micrometer
+    SampleRate: 100
+    type: analog
+    Package: get_data1
+    matlab_name: PVMRE_C1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'pvmpsa': <class 'netCDF4._netCDF4.Variable'>
+float32 pvmpsa(time)
+    long_name: PVM-100A (Gerber) particle surface area
+    Category: Derived
+    units: cm2/m3
+    SampleRate: 100
+    module: !IP330_1
+    channel: 13
+    type: analog
+    Package: get_data1
+    matlab_name: PVMPSA1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0
+    Baseline: 303.5011
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'torque': <class 'netCDF4._netCDF4.Variable'>
+float32 torque(time)
+    long_name: Left Engine Torque
+    Status: Derived Variable
+    units: ft-lb
+    Package: get_data1
+    matlab_name: TORQUE1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    MissingValues: 0.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'thetad': <class 'netCDF4._netCDF4.Variable'>
+float32 thetad(time)
+    long_name: Potential temperature (dry)
+    Status: Derived Variable
+    units: K
+    Package: get_misc1
+    matlab_name: THETAD1
+    StaticDefect: Corrected
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    TempUsed: trf
+    PressUsed: ps_hads_a
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'thetae': <class 'netCDF4._netCDF4.Variable'>
+float32 thetae(time)
+    long_name: Equivalent potential temperature
+    Status: Derived Variable
+    units: K
+    Package: get_misc1
+    matlab_name: THETAE1
+    StaticDefect: Corrected
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    TempUsed: trf
+    PressUsed: ps_hads_a
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'twodp': <class 'netCDF4._netCDF4.Variable'>
+float32 twodp(time)
+    long_name: 2DP shadow OR concentration
+    units: liter-1
+    SampleRate: 10
+    Package: get_misc1
+    matlab_name: SO2DP
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FRST_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 FRST_IBL(time)
+    units: counts
+    long_name: FSSP-100 Fast Resets
+    Category: PMS Probe
+    missing_value: -32767.0
+    SampledRate: 50
+    OutputRate: 1
+    Package: get_fssp1
+    matlab_name: Resets1_IBL
+    Dependencies:  
+    raw_name: unknown
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AFSSP_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 AFSSP_IBL(time, sps1, Vec16)
+    units: counts
+    long_name: FSSP-100 Raw Accumulation (per cell)
+    Category: PMS Probe
+    missing_value: -32767.0
+    SampledRate: 10
+    OutputRate: 1
+    matlab_name: Fssp1_IBL
+    VectorLength: 16
+    SerialNumber: 413-0577-12
+    FirstBin: 1
+    LastBin: 15
+    CellSizes: [ 1.5   4.5   7.5  10.5  13.5  16.5  19.5  22.5  25.5  28.5  31.5  34.5
+ 37.5  40.5  43.5  47.5   1.    3.    5.    7.    9.   11.   13.   15.
+ 17.   19.   21.   23.   25.   27.   29.   31.    0.5   1.5   2.5   3.5
+  4.5   5.5   6.5   7.5   8.5   9.5  10.5  11.5  12.5  13.5  14.5  15.5
+  0.25  0.75  1.25  1.75  2.25  2.75  3.25  3.75  4.25  4.75  5.25  5.75
+  6.25  6.75  7.25  7.75]
+    CellSizeUnits: micrometers
+    Density: 1.0
+    PLWfactor: 1e-06
+    DBZfactor: 1000000.0
+    _FillValue: -32767.0
+    comment0: Bins are indexed 0 - 15 
+    comment1: Measured: 15 bins (1-15); 
+    comment2: Bin 0 is empty (compatibility). Bins 1-15 contain accumulations from probe;
+    comment3: FirstBin=1, LastBin=15; Those bins are used for concentration calculations;
+    comment4: CellSizes are bin edges for bin 1-15 (lower edge of bin 1 is uncertain).
+    DepthOfField: 2.52
+    BeamDiameter: 0.17
+unlimited dimensions: 
+current shape = (5979, 1, 16)
+filling on, 'CFSSP_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 CFSSP_IBL(time, sps1, Vec16)
+    units: cm-3
+    long_name: FSSP-100 Accumulation (per cell)
+    Category: PMS Probe
+    missing_value: -32767.0
+    SampledRate: 10
+    OutputRate: 1
+    VectorLength: 16
+    SerialNumber: 413-0577-12
+    Package: get_fssp1
+    matlab_name: concf1_IBL
+    CellSizes: [ 1.5   4.5   7.5  10.5  13.5  16.5  19.5  22.5  25.5  28.5  31.5  34.5
+ 37.5  40.5  43.5  47.5   1.    3.    5.    7.    9.   11.   13.   15.
+ 17.   19.   21.   23.   25.   27.   29.   31.    0.5   1.5   2.5   3.5
+  4.5   5.5   6.5   7.5   8.5   9.5  10.5  11.5  12.5  13.5  14.5  15.5
+  0.25  0.75  1.25  1.75  2.25  2.75  3.25  3.75  4.25  4.75  5.25  5.75
+  6.25  6.75  7.25  7.75]
+    FirstBin: 1
+    LastBin: 15
+    CellSizeUnits: micrometers
+    Density: 1.0
+    PLWfactor: 1e-06
+    DBZfactor: 1000000.0
+    _FillValue: -32767.0
+    comment0: Bins are indexed 0 - 15 
+    comment1: Measured: 15 bins (1-15); 
+    comment2: Bin 0 is empty (compatibility). Bins 1-15 contain accumulations from probe;
+    comment3: FirstBin=1, LastBin=15; Those bins are used for concentration calculations;
+    comment4: CellSizes are bin edges for bin 1-15 (lower edge of bin 1 is uncertain).
+    DepthOfField: 2.52
+    BeamDiameter: 0.17
+unlimited dimensions: 
+current shape = (5979, 1, 16)
+filling on, 'CONCF_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 CONCF_IBL(time)
+    units: cm-3
+    long_name: FSSP-100 Concentration (all cells)
+    Category: PMS Probe
+    missing_value: -32767.0
+    Package: get_fssp1
+    matlab_name: fconc1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'DBARF_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 DBARF_IBL(time)
+    units: um
+    long_name: FSSP-100 Mean Particle Diameter
+    Category: PMS Probe
+    missing_value: -32767.0
+    Package: get_fssp1
+    matlab_name: Dbar_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FBMFR_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 FBMFR_IBL(time)
+    units: fraction
+    long_name: FSSP-100 Beam Fraction
+    Category: PMS Probe
+    missing_value: -32767.0
+    Package: get_fssp1
+    matlab_name: BeamFraction1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FACT_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 FACT_IBL(time)
+    units: none
+    long_name: FSSP-100 Activity Fraction
+    Category: PMS Probe
+    missing_value: -32767.0
+    SampledRate: 50
+    OutputRate: 1
+    Package: get_fssp1
+    matlab_name: Activity1_IBL
+    Dependencies:  
+    raw_name: unknown
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FSTB_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 FSTB_IBL(time)
+    units: counts
+    long_name: FSSP-100 Total Strobes
+    Category: PMS Probe
+    missing_value: -32767.0
+    SampledRate: 50
+    OutputRate: 1
+    Package: get_fssp1.m
+    matlab_name: TotalStrobes1_IBL
+    Dependencies:  
+    raw_name: unknown
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FRNG_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 FRNG_IBL(time)
+    units: none
+    long_name: FSSP-100 Size Range Category
+    Category: PMS Probe
+    missing_value: -32767.0
+    SampledRate: 1
+    VectorLength: 1
+    Package: get_fssp1
+    matlab_name: frange1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'PLWCF_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 PLWCF_IBL(time)
+    units: gram/m3
+    long_name: FSSP-100 Water Content
+    Category: Derived PMS Probe
+    missing_value: -32767.0
+    Package: get_fssp1
+    matlab_name: flwc1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'REffective_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 REffective_IBL(time)
+    long_name: FSSP-100  effective radius
+    Category: Derived
+    units: um
+    SampleRate: 10
+    Package: get_fssp1
+    matlab_name: REffective1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'SurfArea_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 SurfArea_IBL(time)
+    long_name: FSSP-100  Particle Surface Area
+    Category: Derived
+    units: cm2/m3
+    SampleRate: 10
+    Package: get_fssp1
+    matlab_name: SurfArea1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'RBarVol_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 RBarVol_IBL(time)
+    long_name: FSSP-100  Mean volume radius
+    Category: Derived
+    units: um
+    SampleRate: 10
+    Package: get_fssp1
+    matlab_name: RBarVol1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FDOFFR_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 FDOFFR_IBL(time)
+    units: fraction
+    long_name: FSSP-100 DOF Fraction
+    Category: PMS Probe
+    missing_value: -32767.0
+    Package: get_fssp1
+    matlab_name: DOFFraction1_IBL
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_tau2_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_tau2_IBL(time)
+    long_name: FSSP calculated average transit time - method 2 
+    Status: JLB variable FSSP
+    units: microseconds
+    Package: get_fssp1
+    matlab_name: jlb_tau2_IBL
+    Dependencies:  
+    _FillValue: -32767.0
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_tauspec_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_tauspec_IBL(time)
+    long_name: FSSP calculated average transit time from spectrum 
+    Status: JLB variable FSSP
+    units: microseconds
+    Package: get_fssp1
+    matlab_name: jlb_tauspec_IBL
+    Dependencies:  
+    _FillValue: -32767.0
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_conc2_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_conc2_IBL(time)
+    long_name: FSSP droplet concentration (JLB) method 2 
+    Status: JLB variable FSSP
+    units: cm-3
+    Package: get_fssp1
+    matlab_name: jlb_conc2_IBL
+    Dependencies:  
+    _FillValue: -32767.0
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_conc3_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_conc3_IBL(time)
+    long_name: FSSP droplet concentration (JLB) method 3 
+    Status: JLB variable FSSP
+    units: cm-3
+    Package: get_fssp1
+    matlab_name: jlb_conc3_IBL
+    Dependencies:  
+    _FillValue: -32767.0
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_conc4_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_conc4_IBL(time)
+    long_name: FSSP droplet concentration (JLB) method 4 
+    Status: JLB variable FSSP
+    units: cm-3
+    Package: get_fssp1
+    matlab_name: jlb_conc4_IBL 
+    Dependencies:  
+    _FillValue: -32767.0
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_lwc2_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_lwc2_IBL(time)
+    long_name: FSSP liquid water content (JLB) method 2
+    Status: JLB variable FSSP
+    units: gram/m3
+    Package: get_fssp1
+    matlab_name: jlb_lwc2_IBL
+    Dependencies:  
+    _FillValue: -32767.0
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_lwc3_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_lwc3_IBL(time)
+    long_name: FSSP liquid water content (JLB) method 3
+    Status: JLB variable FSSP
+    units: gram/m3
+    Package: get_fssp1
+    matlab_name: jlb_lwc3_IBL
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'jlb_lwc4_IBL': <class 'netCDF4._netCDF4.Variable'>
+float32 jlb_lwc4_IBL(time)
+    long_name: FSSP liquid water content (JLB) method 4
+    Status: JLB variable FSSP
+    units: gram/m3
+    Package: get_fssp1
+    matlab_name: jlb_lwc4_IBL
+    Dependencies:  
+    _FillValue: -32767.0
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ACDP_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 ACDP_NRB(time, sps1, Vec31)
+    long_name: DMT CDP number (per cell)
+    units: number
+    Category: PMS Probe
+    SampledRate: 10
+    FirstBin: 1
+    LastBin: 30
+    VectorLength: 31
+    Package: get_cdp1
+    matlab_name: ACDP
+    CellSizes: [ 2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 16. 18. 20. 22. 24.
+ 26. 28. 30. 32. 34. 36. 38. 40. 42. 44. 46. 48. 50.]
+    OutputRate: 1
+    _FillValue: -32767.0
+    SerialNumber: CDP-0906-055
+    SampleArea: 0.3
+    SampleAreaUnits: mm2
+    Threshold: [  30   76  111  152  188  213  238  261  283  319  362  418  487  636
+  775  898 1010 1155 1347 1565 1775 1960 2148 2363 2623 2907 3185 3442
+ 3685 3969 4025]
+    comment0: Bins are indexed 0 - 30 
+    comment1: Measured: 30 bins (1-30); 
+    comment2: Bin 0 is empty (compatibility). Bins 1-30 contain accumulations from probe;
+    comment4: FirstBin=1, LastBin=30; Those bins are used for concentration calculations;
+    comment5: CellSizes are bin edges for bin 1-30 (lower edge of bin 1 is uncertain).
+unlimited dimensions: 
+current shape = (5979, 1, 31)
+filling on, 'CCDP_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 CCDP_NRB(time, sps1, Vec31)
+    long_name: DMT CDP concentration (per cell)
+    units: cm-3
+    Category: PMS Probe
+    SampledRate: 10
+    FirstBin: 1
+    LastBin: 30
+    VectorLength: 31
+    Package: get_cdp1
+    matlab_name: CCDP
+    CellSizes: [ 2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12. 13. 14. 16. 18. 20. 22. 24.
+ 26. 28. 30. 32. 34. 36. 38. 40. 42. 44. 46. 48. 50.]
+    OutputRate: 1
+    _FillValue: -32767.0
+    SerialNumber: CDP-0906-055
+    SampleArea: 0.3
+    SampleAreaUnits: mm2
+    Threshold: [  30   76  111  152  188  213  238  261  283  319  362  418  487  636
+  775  898 1010 1155 1347 1565 1775 1960 2148 2363 2623 2907 3185 3442
+ 3685 3969 4025]
+    comment0: Bins are indexed 0 - 30 
+    commentf1: Measured: 30 bins (1-30); 
+    comment2: Bin 0 is empty (compatibility). Bins 1-30 contain accumulations from probe;
+    comment4: FirstBin=1, LastBin=30; Those bins are used for concentration calculations;
+    comment5: CellSizes are bin edges for bin 1-30 (lower edge of bin 1 is uncertain).
+unlimited dimensions: 
+current shape = (5979, 1, 31)
+filling on, 'cdpacc_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpacc_NRB(time)
+    long_name: DMT CDP Total number
+    units: number
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPTot
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdpconc_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpconc_NRB(time)
+    long_name: DMT CDP Total Concentration
+    units: cm-3
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPConc
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdplwc_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdplwc_NRB(time)
+    long_name: DMT CDP Liquid Water Content
+    units: g m-3
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPLWC
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdpdbar_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpdbar_NRB(time)
+    long_name: DMT CDP Mean Diameter
+    units: um
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPDbar
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdpreff_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpreff_NRB(time)
+    long_name: DMT CDP Effective Radius
+    units: um
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPReff
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ACDP_1_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 ACDP_1_NRB(time, sps1, Vec28)
+    long_name: DMT CDP number -- rebinned (per cell) 
+    units: number
+    Category: PMS Probe
+    SampledRate: 10
+    FirstBin: 1
+    LastBin: 27
+    VectorLength: 28
+    Package: get_cdp1
+    matlab_name: ACDP_1
+    CellSizes: [ 2.  3.  4.  5.  6.  7.  8. 10. 12. 14. 16. 18. 20. 22. 24. 26. 28. 30.
+ 32. 34. 36. 38. 40. 42. 44. 46. 48. 50.]
+    OutputRate: 1
+    _FillValue: -32767.0
+    SerialNumber: CDP-0906-055
+    SampleArea: 0.3
+    SampleAreaUnits: mm2
+    Threshold: [  30   76  111  152  188  213  238  261  283  319  362  418  487  636
+  775  898 1010 1155 1347 1565 1775 1960 2148 2363 2623 2907 3185 3442
+ 3685 3969 4025]
+    comment0: Bins are indexed 0 - 27 
+    comment1: Measured: 27 bins (1-27); 
+    comment2: Bin 0 is empty (compatibility). Bins 1-27 contain accumulations from probe;
+    comment4: FirstBin=1, LastBin=27; Those bins are used for concentration calculations;
+    comment5: CellSizes are bin edges for bin 1-27 (lower edge of bin 1 is uncertain).
+unlimited dimensions: 
+current shape = (5979, 1, 28)
+filling on, 'CCDP_1_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 CCDP_1_NRB(time, sps1, Vec28)
+    long_name: DMT CDP concentration -- rebinned (per cell)
+    units: cm-3
+    Category: PMS Probe
+    SampledRate: 10
+    FirstBin: 1
+    LastBin: 27
+    VectorLength: 28
+    Package: get_cdp1
+    matlab_name: CCDP_1
+    CellSizes: [ 2.  3.  4.  5.  6.  7.  8. 10. 12. 14. 16. 18. 20. 22. 24. 26. 28. 30.
+ 32. 34. 36. 38. 40. 42. 44. 46. 48. 50.]
+    OutputRate: 1
+    _FillValue: -32767.0
+    SerialNumber: CDP-0906-055
+    SampleArea: 0.3
+    SampleAreaUnits: mm2
+    Threshold: [  30   76  111  152  188  213  238  261  283  319  362  418  487  636
+  775  898 1010 1155 1347 1565 1775 1960 2148 2363 2623 2907 3185 3442
+ 3685 3969 4025]
+    comment0: Bins are indexed 0 - 27 
+    commentf1: Measured: 27 bins (1-27); 
+    comment2: Bin 0 is empty (compatibility). Bins 1-27 contain accumulations from probe;
+    comment4: FirstBin=1, LastBin=27; Those bins are used for concentration calculations;
+    comment5: CellSizes are bin edges for bin 1-27 (lower edge of bin 1 is uncertain).
+unlimited dimensions: 
+current shape = (5979, 1, 28)
+filling on, 'cdpacc_1_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpacc_1_NRB(time)
+    long_name: DMT CDP Total number -- rebinned 
+    units: number
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPTot_1
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdpconc_1_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpconc_1_NRB(time)
+    long_name: DMT CDP Total Concentration -- rebinned 
+    units: cm-3
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPConc_1
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdplwc_1_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdplwc_1_NRB(time)
+    long_name: DMT CDP Liquid Water Content -- rebinned 
+    units: g m-3
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPLWC_1
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdpdbar_1_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpdbar_1_NRB(time)
+    long_name: DMT CDP Mean Diameter -- rebinned 
+    units: um
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPDbar_1
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'cdpreff_1_NRB': <class 'netCDF4._netCDF4.Variable'>
+float32 cdpreff_1_NRB(time)
+    long_name: DMT CDP Effective Radius -- rebinned 
+    units: um
+    Category: PMS Probe
+    SampledRate: 10
+    Package: get_cdp1
+    matlab_name: CDPReff_1
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'vlwcref': <class 'netCDF4._netCDF4.Variable'>
+float32 vlwcref(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: VLWCREF
+    long_name: Nevzorov LWC reference voltage
+    Nnumber: 2.413
+    SampleAreaUnits: cm2
+    resistance: 2.937
+    SampleArea: 0.325
+    SerialNumber: SN003
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 23:36:10.000
+    units: volt
+    AnalogCalibration: [0.005278 1.011648]
+    AnalogCalibrationDate: 2010-03-19 16:40:31.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI24'
+    _FillValue: -32767.0
+    matlab_name: VLWCREF1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'vlwccol': <class 'netCDF4._netCDF4.Variable'>
+float32 vlwccol(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: VLWCCOL
+    long_name: Nevzorov LWC collector voltage
+    SampleArea: 0.478
+    Nnumber: 2.413
+    SampleAreaUnits: cm2
+    resistance: 2.937
+    SerialNumber: SN003
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 23:37:16.000
+    units: volt
+    AnalogCalibration: [-0.010397  1.011935]
+    AnalogCalibrationDate: 2010-03-19 16:41:55.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI25'
+    _FillValue: -32767.0
+    matlab_name: VLWCCOL1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'vtwcref': <class 'netCDF4._netCDF4.Variable'>
+float32 vtwcref(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: VTWCREF
+    long_name: Nevzorov TWC reference voltage
+    SampleArea: 0.478
+    Nnumber: 2.284
+    resistance: 3.485
+    SampleAreaUnits: cm2
+    SerialNumber: SN003
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 23:38:26.000
+    units: volt
+    AnalogCalibration: [0.001876 1.012102]
+    AnalogCalibrationDate: 2010-03-19 16:44:39.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI27'
+    _FillValue: -32767.0
+    matlab_name: VTWCREF1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'vtwccol': <class 'netCDF4._netCDF4.Variable'>
+float32 vtwccol(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: VTWCCOL
+    long_name: Nevzorov TWC collector voltage
+    SampleArea: 0.478
+    Nnumber: 2.284
+    resistance: 3.485
+    SampleAreaUnits: cm2
+    SerialNumber: SN003
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 23:37:46.000
+    units: volt
+    AnalogCalibration: [-0.007195  1.012325]
+    AnalogCalibrationDate: 2010-03-19 16:43:19.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI26'
+    _FillValue: -32767.0
+    matlab_name: VTWCCOL1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ilwcref': <class 'netCDF4._netCDF4.Variable'>
+float32 ilwcref(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: ILWCREF
+    long_name: Nevzorov LWC reference current
+    resistance: 3.485
+    Nnumber: 2.054
+    SampleArea: 0.325
+    SampleAreaUnits: cm2
+    SerialNumber: SN003
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 23:41:51.000
+    units: amp
+    AnalogCalibration: [0.007248 1.012216]
+    AnalogCalibrationDate: 2010-03-19 16:47:16.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI29'
+    _FillValue: -32767.0
+    matlab_name: ILWCREF1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ilwccol': <class 'netCDF4._netCDF4.Variable'>
+float32 ilwccol(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: ILWCCOL
+    long_name: Nevzorov LWC collector current
+    resistance: 3.485
+    Nnumber: 2.054
+    SampleArea: 0.325
+    SampleAreaUnits: cm2
+    SerialNumber: SN003
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 23:38:57.000
+    units: amp
+    AnalogCalibration: [-0.005463  1.011588]
+    AnalogCalibrationDate: 2010-03-19 16:45:53.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI28'
+    _FillValue: -32767.0
+    matlab_name: ILWCCOL1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'itwcref': <class 'netCDF4._netCDF4.Variable'>
+float32 itwcref(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: ITWCREF
+    long_name: Nevzorov TWC reference current
+    Nnumber: 2.284
+    SampleAreaUnits: cm2
+    resistance: 2.362
+    SampleArea: 0.478
+    SerialNumber: SN003
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 23:43:35.000
+    units: amp
+    AnalogCalibration: [-0.003383  1.011865]
+    AnalogCalibrationDate: 2010-03-19 16:49:47.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI31'
+    _FillValue: -32767.0
+    matlab_name: ITWCREF1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'itwccol': <class 'netCDF4._netCDF4.Variable'>
+float32 itwccol(time)
+    group: Analog Input
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    ExternalMin: -10.0
+    InternalCutoff: 40000.0
+    InternalGain: 1.0
+    DataType: Double
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    location: NRL
+    VariableName: ITWCCOL
+    long_name: Nevzorov TWC collector current
+    resistance: 3.485
+    Nnumber: 2.284
+    SampleAreaUnits: cm2
+    SampleArea: 0.478
+    SerialNumber: SN003
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 23:42:40.000
+    units: amp
+    AnalogCalibration: [-0.005675  1.013978]
+    AnalogCalibrationDate: 2010-03-19 16:48:37.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI30'
+    _FillValue: -32767.0
+    matlab_name: ITWCCOL1
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVewvel': <class 'netCDF4._netCDF4.Variable'>
+float32 AVewvel(time)
+    long_name: Applanix AV-410 ground speed (E-W component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVewvel1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVnsvel': <class 'netCDF4._netCDF4.Variable'>
+float32 AVnsvel(time)
+    long_name: Applanix AV-410 ground speed (N-S component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVnsvel1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVzvel': <class 'netCDF4._netCDF4.Variable'>
+float32 AVzvel(time)
+    long_name: Applanix AV-410 ground speed (UP component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVzvel1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVgs': <class 'netCDF4._netCDF4.Variable'>
+float32 AVgs(time)
+    long_name: Applanix AV-410 ground speed (GPS corrected )
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVgs1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVroll': <class 'netCDF4._netCDF4.Variable'>
+float32 AVroll(time)
+    long_name: Applanix AV-410 roll angle (GPS corrected )
+    Status: AV410 post-processed variable
+    units: degree
+    Package: POSPac MMM
+    matlab_name: AVroll1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVpitch': <class 'netCDF4._netCDF4.Variable'>
+float32 AVpitch(time)
+    long_name: Applanix AV-410 pitch angle (GPS corrected )
+    Status: AV410 post-processed variable
+    units: degree
+    Package: POSPac MMM
+    matlab_name: AVpitch1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVthead': <class 'netCDF4._netCDF4.Variable'>
+float32 AVthead(time)
+    long_name: Applanix AV-410 true heading angle (GPS corrected )
+    Status: AV410 post-processed variable
+    units: degree_T
+    Package: POSPac MMM
+    matlab_name: AVthead1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVlat': <class 'netCDF4._netCDF4.Variable'>
+float32 AVlat(time)
+    long_name: Applanix AV-410 latitude (GPS corrected )
+    Status: AV410 post-processed variable
+    units: degree_N
+    Package: POSPac MMM
+    matlab_name: AVlat1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVlon': <class 'netCDF4._netCDF4.Variable'>
+float32 AVlon(time)
+    long_name: Applanix AV-410 longitude (GPS corrected )
+    Status: AV410 post-processed variable
+    units: degrees_E
+    Package: POSPac MMM
+    matlab_name: AVlon1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVzell': <class 'netCDF4._netCDF4.Variable'>
+float32 AVzell(time)
+    long_name: Applanix AV-410 ellipsoid altitude (GPS corrected )
+    Status: AV410 post-processed variable
+    units: m
+    Package: POSPac MMM
+    matlab_name: AVzell1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVzmsl': <class 'netCDF4._netCDF4.Variable'>
+float32 AVzmsl(time)
+    long_name: Applanix AV-410 orthometric (MSL) altitude (GPS corrected )
+    Status: AV410 post-processed variable
+    units: m
+    Package: POSPac MMM
+    matlab_name: AVzmsl1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVuwind': <class 'netCDF4._netCDF4.Variable'>
+float32 AVuwind(time)
+    long_name: Horizontal wind (Applanix AV-410, E-W component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVuwind1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVvwind': <class 'netCDF4._netCDF4.Variable'>
+float32 AVvwind(time)
+    long_name: Horizontal wind (Applanix AV-410, N-S component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVvwind1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVwwind': <class 'netCDF4._netCDF4.Variable'>
+float32 AVwwind(time)
+    long_name: Vertical wind (Applanix AV-410, UP component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVwwind1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVwdir': <class 'netCDF4._netCDF4.Variable'>
+float32 AVwdir(time)
+    long_name: Applanix post-processed Wind direction (from)
+    Status: Derived Variable
+    units: degree_T
+    Package: get_AVimu1
+    matlab_name: AVwdir1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVwmag': <class 'netCDF4._netCDF4.Variable'>
+float32 AVwmag(time)
+    long_name: Applanix post-processed Wind magnitude
+    Status: Derived Variable
+    units: m/s
+    Package: get_AVimu1
+    matlab_name: AVwmag1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVux': <class 'netCDF4._netCDF4.Variable'>
+float32 AVux(time)
+    long_name:  horizontal wind -- longitudinal component (GPS corrected )
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVux1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVvy': <class 'netCDF4._netCDF4.Variable'>
+float32 AVvy(time)
+    long_name:  horizontal wind -- lateral (GPS corrected )
+    Status: AV410 post-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVvy1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVtrack': <class 'netCDF4._netCDF4.Variable'>
+float32 AVtrack(time)
+    long_name: Applanix AV-410 track angle (AV corrected )
+    Status: AV410 post-processed variable
+    units: degrees
+    Package: POSPac MMM
+    matlab_name: AVtrack1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVrollr': <class 'netCDF4._netCDF4.Variable'>
+float32 AVrollr(time)
+    long_name: Applanix AV-410 angle rate (body x-axis  component, post-processed)
+    Status: AV410 post-processed variable
+    units: radian/s
+    Package: POSPac MMM
+    matlab_name: AVrollr1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVpitchr': <class 'netCDF4._netCDF4.Variable'>
+float32 AVpitchr(time)
+    long_name: Applanix AV-410 angle rate (body y-axis component, post-processed)
+    Status: AV410 post-processed variable
+    units: radian/s
+    Package: POSPac MMM
+    matlab_name: AVpitchr1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVyawr': <class 'netCDF4._netCDF4.Variable'>
+float32 AVyawr(time)
+    long_name: Applanix AV-410 angle rate (body z-axis component, post-processed)
+    Status: AV410 post-processed variable
+    units: radian/s
+    Package: POSPac MMM
+    matlab_name: AVyawr1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVlonga': <class 'netCDF4._netCDF4.Variable'>
+float32 AVlonga(time)
+    long_name: Applanix AV-410 accel (body-axis longit. component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s2
+    Package: POSPac MMM
+    matlab_name: AVlonga1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVlata': <class 'netCDF4._netCDF4.Variable'>
+float32 AVlata(time)
+    long_name: Applanix AV-410 accel (body-axis lateral component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s2
+    Package: POSPac MMM
+    matlab_name: AVlata1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVnorma': <class 'netCDF4._netCDF4.Variable'>
+float32 AVnorma(time)
+    long_name: Applanix AV-410 accel (body-axis vertical component, post-processed)
+    Status: AV410 post-processed variable
+    units: m/s2
+    Package: POSPac MMM
+    matlab_name: AVnorma1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVxdist': <class 'netCDF4._netCDF4.Variable'>
+float32 AVxdist(time)
+    long_name: Position (east) from Applanix post-processed
+    Status: Derived Variable
+    units: km
+    Package: get_gps1
+    matlab_name: AV_xdist1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    mapproj: eqaazim
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVydist': <class 'netCDF4._netCDF4.Variable'>
+float32 AVydist(time)
+    long_name: Position (north) from Applanix post-processed
+    Status: Derived Variable
+    units: km
+    Package: get_gps1
+    matlab_name: AV_ydist1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    mapproj: eqaazim
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVnposrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVnposrms(time)
+    long_name: Applanix AV-410 north position RMS post-processed
+    Status: AV410 post-processed variable
+    units: m
+    Package: POSPac MMM
+    matlab_name: AVnposrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVeposrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVeposrms(time)
+    long_name: Applanix AV-410 east position RMS post-processed
+    Status: AV410 post-processed variable
+    units: m
+    Package: POSPac MMM
+    matlab_name: AVeposrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVdposrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVdposrms(time)
+    long_name: Applanix AV-410 down position RMS post-processed
+    Status: AV410 post-processed variable
+    units: m
+    Package: POSPac MMM
+    matlab_name: AVdposrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVnvelrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVnvelrms(time)
+    long_name: Applanix AV-410 north velocity RMS post-processed
+    Status: AV410 velt-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVnvelrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVevelrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVevelrms(time)
+    long_name: Applanix AV-410 east velocity RMS post-processed
+    Status: AV410 velt-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVevelrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVdvelrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVdvelrms(time)
+    long_name: Applanix AV-410 down velocity RMS post-processed
+    Status: AV410 velt-processed variable
+    units: m/s
+    Package: POSPac MMM
+    matlab_name: AVdvelrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVrollrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVrollrms(time)
+    long_name: Applanix AV-410 down roll angle RMS post-processed
+    Status: AV410 velt-processed variable
+    units: degrees
+    Package: POSPac MMM
+    matlab_name: AVrollrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVpitchrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVpitchrms(time)
+    long_name: Applanix AV-410 down pitch angle RMS post-processed
+    Status: AV410 velt-processed variable
+    units: degrees
+    Package: POSPac MMM
+    matlab_name: AVpitchrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AVtheadrms': <class 'netCDF4._netCDF4.Variable'>
+float32 AVtheadrms(time)
+    long_name: Applanix AV-410 down heading angle RMS post-processed
+    Status: AV410 velt-processed variable
+    units: degrees
+    Package: POSPac MMM
+    matlab_name: AVtheadrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avvdop': <class 'netCDF4._netCDF4.Variable'>
+float32 avvdop(time)
+    long_name: Applanix vertical dilution of precision
+    Status: AV410 real-time variable
+    units: factor
+    Package: AV-410 Real-Time 
+    matlab_name: avvdop1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avhdop': <class 'netCDF4._netCDF4.Variable'>
+float32 avhdop(time)
+    long_name: Applanix horizontal dilution of precision
+    Status: AV410 real-time variable
+    units: factor
+    Package: AV-410 Real-Time 
+    matlab_name: avhdop1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avewvel': <class 'netCDF4._netCDF4.Variable'>
+float32 avewvel(time)
+    long_name: Applanix a-410 ground speed (E-W component, real-time)
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avewvel1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avnsvel': <class 'netCDF4._netCDF4.Variable'>
+float32 avnsvel(time)
+    long_name: Applanix a-410 ground speed (N-S component, real-time)
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avnsvel1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avzvel': <class 'netCDF4._netCDF4.Variable'>
+float32 avzvel(time)
+    long_name: Applanix a-410 ground speed (UP component, real-time, fixed)
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avzvel1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avdnvel': <class 'netCDF4._netCDF4.Variable'>
+float32 avdnvel(time)
+    long_name: Applanix a-410 ground speed (DN component, real-time)
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avdnvel1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avgs': <class 'netCDF4._netCDF4.Variable'>
+float32 avgs(time)
+    long_name: Applanix a-410 ground speed (real-time)
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avgs1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avroll': <class 'netCDF4._netCDF4.Variable'>
+float32 avroll(time)
+    long_name: Applanix a-410 roll angle (real-time)
+    Status: AV410 real-time variable
+    units: degree
+    Package: AV-410 Real-Time 
+    matlab_name: avroll1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avpitch': <class 'netCDF4._netCDF4.Variable'>
+float32 avpitch(time)
+    long_name: Applanix a-410 pitch angle (real-time)
+    Status: AV410 real-time variable
+    units: degree
+    Package: AV-410 Real-Time 
+    matlab_name: avpitch1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avthead': <class 'netCDF4._netCDF4.Variable'>
+float32 avthead(time)
+    long_name: Applanix a-410 true heading angle (real-time)
+    Status: AV410 real-time variable
+    units: degree_T
+    Package: AV-410 Real-Time 
+    matlab_name: avthead1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    MissingValues: 0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avlat': <class 'netCDF4._netCDF4.Variable'>
+float32 avlat(time)
+    long_name: Applanix a-410 latitude (real-time)
+    Status: AV410 real-time variable
+    units: degree_N
+    Package: AV-410 Real-Time 
+    matlab_name: avlat1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avlon': <class 'netCDF4._netCDF4.Variable'>
+float32 avlon(time)
+    long_name: Applanix a-410 longitude (real-time)
+    Status: AV410 real-time variable
+    units: degrees_E
+    Package: AV-410 Real-Time 
+    matlab_name: avlon1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avalt': <class 'netCDF4._netCDF4.Variable'>
+float32 avalt(time)
+    long_name: Applanix a-410 altitude (real-time)
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avalt1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avzmsl': <class 'netCDF4._netCDF4.Variable'>
+float32 avzmsl(time)
+    long_name: Applanix a-410 altitude (orthometric) (real-time)
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avzmsl1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avzell': <class 'netCDF4._netCDF4.Variable'>
+float32 avzell(time)
+    long_name: Applanix a-410 altitude (ellipsoid) (real-time)
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avzell1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avuwind': <class 'netCDF4._netCDF4.Variable'>
+float32 avuwind(time)
+    long_name: Horizontal wind (Applanix a-410, E-W component(real-time)
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avuwind1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avvwind': <class 'netCDF4._netCDF4.Variable'>
+float32 avvwind(time)
+    long_name: Horizontal wind (Applanix a-410, N-S component(real-time)
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avvwind1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avwwind': <class 'netCDF4._netCDF4.Variable'>
+float32 avwwind(time)
+    long_name: Vertical wind (Applanix a-410, UP component(real-time)
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avwwind1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avwdir': <class 'netCDF4._netCDF4.Variable'>
+float32 avwdir(time)
+    long_name: Applanix real-time Wind direction (from)
+    Status: Derived Variable
+    units: degree_T
+    Package: get_avimu1
+    matlab_name: avwdir1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avwmag': <class 'netCDF4._netCDF4.Variable'>
+float32 avwmag(time)
+    long_name: Applanix real-time Wind magnitude
+    Status: Derived Variable
+    units: m/s
+    Package: get_avimu1
+    matlab_name: avwmag1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    AirspeedUsed: AIAS (full R858 calculation) in airspeed determination
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avux': <class 'netCDF4._netCDF4.Variable'>
+float32 avux(time)
+    long_name:  horizontal wind -- longitudinal component (real-time)
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avux1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avvy': <class 'netCDF4._netCDF4.Variable'>
+float32 avvy(time)
+    long_name:  horizontal wind -- lateral (real-time)
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avvy1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avtrack': <class 'netCDF4._netCDF4.Variable'>
+float32 avtrack(time)
+    long_name: Applanix a-410 track angle (real-time  )
+    Status: AV410 real-time variable
+    units: degrees
+    Package: AV-410 Real-Time 
+    matlab_name: avtrack1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avrollr': <class 'netCDF4._netCDF4.Variable'>
+float32 avrollr(time)
+    long_name: Applanix a-410 angle rate (body x-axis  component(real-time)
+    Status: AV410 real-time variable
+    units: radian/s
+    Package: AV-410 Real-Time 
+    matlab_name: avrollr1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avpitchr': <class 'netCDF4._netCDF4.Variable'>
+float32 avpitchr(time)
+    long_name: Applanix a-410 angle rate (body y-axis component(real-time)
+    Status: AV410 real-time variable
+    units: radian/s
+    Package: AV-410 Real-Time 
+    matlab_name: avpitchr1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avyawr': <class 'netCDF4._netCDF4.Variable'>
+float32 avyawr(time)
+    long_name: Applanix a-410 angle rate (body z-axis component(real-time)
+    Status: AV410 real-time variable
+    units: radian/s
+    Package: AV-410 Real-Time 
+    matlab_name: avyawr1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avlonga': <class 'netCDF4._netCDF4.Variable'>
+float32 avlonga(time)
+    long_name: Applanix a-410 accel (body-axis longit. component(real-time)
+    Status: AV410 real-time variable
+    units: m/s2
+    Package: AV-410 Real-Time 
+    matlab_name: avlonga1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avlata': <class 'netCDF4._netCDF4.Variable'>
+float32 avlata(time)
+    long_name: Applanix a-410 accel (body-axis lateral component(real-time)
+    Status: AV410 real-time variable
+    units: m/s2
+    Package: AV-410 Real-Time 
+    matlab_name: avlata1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avnorma': <class 'netCDF4._netCDF4.Variable'>
+float32 avnorma(time)
+    long_name: Applanix a-410 accel (body-axis vertical component(real-time)
+    Status: AV410 real-time variable
+    units: m/s2
+    Package: AV-410 Real-Time 
+    matlab_name: avnorma1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avxdist': <class 'netCDF4._netCDF4.Variable'>
+float32 avxdist(time)
+    long_name: Position (east) from Applanix real-time
+    Status: Derived Variable
+    units: km
+    Package: get_gps1
+    matlab_name: av_xdist1
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+    _FillValue: -32767.0
+    mapproj: eqaazim
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avydist': <class 'netCDF4._netCDF4.Variable'>
+float32 avydist(time)
+    long_name: Position (north) from Applanix real-time
+    Status: Derived Variable
+    units: km
+    Package: get_gps1
+    matlab_name: av_ydist1
+    Dependencies:  
+    raw_name: unknown
+    OutputRate: 1
+    _FillValue: -32767.0
+    mapproj: eqaazim
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avnposrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avnposrms(time)
+    long_name: Applanix av-410 north position RMS real-time
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avnposrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'aveposrms': <class 'netCDF4._netCDF4.Variable'>
+float32 aveposrms(time)
+    long_name: Applanix av-410 east position RMS real-time
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: aveposrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avdposrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avdposrms(time)
+    long_name: Applanix av-410 down position RMS real-time
+    Status: AV410 real-time variable
+    units: m
+    Package: AV-410 Real-Time 
+    matlab_name: avdposrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avnvelrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avnvelrms(time)
+    long_name: Applanix av-410 north velocity RMS real-time
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avnvelrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avevelrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avevelrms(time)
+    long_name: Applanix av-410 east velocity RMS real-time
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avevelrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avdvelrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avdvelrms(time)
+    long_name: Applanix av-410 down velocity RMS real-time
+    Status: AV410 real-time variable
+    units: m/s
+    Package: AV-410 Real-Time 
+    matlab_name: avdvelrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avrollrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avrollrms(time)
+    long_name: Applanix av-410 roll angle RMS real-time
+    Status: AV410 real-time variable
+    units: degrees
+    Package: AV-410 Real-Time 
+    matlab_name: avrollrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avpitchrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avpitchrms(time)
+    long_name: Applanix av-410 pitch angle RMS real-time
+    Status: AV410 real-time variable
+    units: degrees
+    Package: AV-410 Real-Time 
+    matlab_name: avpitchrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avtheadrms': <class 'netCDF4._netCDF4.Variable'>
+float32 avtheadrms(time)
+    long_name: Applanix av-410 heading angle RMS real-time
+    Status: AV410 real-time variable
+    units: degrees
+    Package: AV-410 Real-Time 
+    matlab_name: avtheadrms1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppstat': <class 'netCDF4._netCDF4.Variable'>
+float32 avppstat(time)
+    long_name: ApplanixStatus 
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppstat1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avomnistar': <class 'netCDF4._netCDF4.Variable'>
+float32 avomnistar(time)
+    long_name: Applanix omnistar flag (0=HP; 1=XP; 2=VBS)
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avomnistar1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avqual': <class 'netCDF4._netCDF4.Variable'>
+float32 avqual(time)
+    long_name: Applanix quality flag (0=NL RTK;1=WL RTK;2=FL RTK;3=Diff;4=C/A)
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avqual1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppstata': <class 'netCDF4._netCDF4.Variable'>
+float32 avppstata(time)
+    long_name: Applanix General Status A
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppstata1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppstatb': <class 'netCDF4._netCDF4.Variable'>
+float32 avppstatb(time)
+    long_name: Applanix General Status B
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppstatb1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppstatc': <class 'netCDF4._netCDF4.Variable'>
+float32 avppstatc(time)
+    long_name: Applanix General Status C
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppstatc1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppfdir1': <class 'netCDF4._netCDF4.Variable'>
+float32 avppfdir1(time)
+    long_name: Applanix FDIR Level 1 Status
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppfdir1_1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppfdir2': <class 'netCDF4._netCDF4.Variable'>
+float32 avppfdir2(time)
+    long_name: Applanix FDIR Level 1 Status
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppfdir2_1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppfdir3': <class 'netCDF4._netCDF4.Variable'>
+float32 avppfdir3(time)
+    long_name: Applanix FDIR Level 1 Status
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppfdir3_1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppfdir4': <class 'netCDF4._netCDF4.Variable'>
+float32 avppfdir4(time)
+    long_name: Applanix FDIR Level 1 Status
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppfdir4_1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'avppfdir5': <class 'netCDF4._netCDF4.Variable'>
+float32 avppfdir5(time)
+    long_name: Applanix FDIR Level 1 Status
+    Status: AV410 real-time variable
+    units: bit
+    Package: AV-410 Real-Time 
+    matlab_name: avppfdir5_1
+    missing_value: -32767.0
+    _FillValue: -32767.0
+    raw_name: unknown
+    Dependencies:  
+    OutputRate: 1
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'AIAS_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 AIAS_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Rosemount0858
+    InstrumentDescription: Rosemount 0858 Flow Angle
+    Used: True
+    VariableName: AIAS
+    long_name: Noseboom indicated airspeed
+    SerialNumber: 20006
+    CalibrationCoefficients: [-173.106837   70.021646]
+    CalibrationDate: 2013-04-30 16:20:03.000
+    units: hPa
+    CalibrationType: Pressure
+    AnalogCalibration: [-0.012086  1.011763]
+    AnalogCalibrationDate: 2012-04-20 14:29:05.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI0'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'DPA_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 DPA_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Rosemount0858
+    InstrumentDescription: Rosemount 0858 Flow Angle
+    Used: True
+    VariableName: DPA
+    long_name: Attack angle
+    SerialNumber: 19996
+    CalibrationCoefficients: [-171.370666   69.790558]
+    CalibrationDate: 2013-04-30 16:30:04.000
+    units: hPa
+    CalibrationType: Pressure
+    AnalogCalibration: [0.005903 1.011729]
+    AnalogCalibrationDate: 2012-04-20 14:40:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI1'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'DPB_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 DPB_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Rosemount0858
+    InstrumentDescription: Rosemount 0858 Flow Angle
+    Used: True
+    VariableName: DPB
+    long_name: Sideslip angle
+    SerialNumber: 19995
+    CalibrationCoefficients: [-172.838013   69.108005]
+    CalibrationDate: 2013-04-30 16:41:05.000
+    units: hPa
+    CalibrationType: Pressure
+    AnalogCalibration: [0.001292 1.012117]
+    AnalogCalibrationDate: 2012-04-20 14:45:01.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI2'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'DPR_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 DPR_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Rosemount0858
+    InstrumentDescription: Rosemount 0858 Flow Angle
+    Used: True
+    VariableName: DPR
+    long_name: Noseboom reference pressure
+    SerialNumber: 20007
+    CalibrationCoefficients: [-176.294776   70.33716 ]
+    CalibrationDate: 2013-04-30 16:51:01.000
+    units: hPa
+    CalibrationType: Pressure
+    AnalogCalibration: [-0.013179  1.011996]
+    AnalogCalibrationDate: 2012-04-20 14:47:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI3'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'BIAS_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 BIAS_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Co-pilot IAS
+    InstrumentDescription: Co-pilot Indicated Airspeed
+    Used: True
+    VariableName: BIAS
+    long_name: Co-pilot Indicated Airspeed
+    SensorModel: Rosemount 1221
+    SerialNumber: 1045
+    CalibrationCoefficients: [-0.084271 13.928491]
+    CalibrationDate: 2013-04-30 17:08:04.000
+    units: hPa
+    CalibrationType: Pressure
+    AnalogCalibration: [-0.002582  1.01145 ]
+    AnalogCalibrationDate: 2012-04-20 14:49:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI4'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'PMB_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 PMB_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: PMB
+    InstrumentDescription: Analog Static Pressure
+    Used: True
+    VariableName: PMB
+    CalibrationCoefficients: [-92.157507 115.006408]
+    CalibrationDate: 2013-04-30 21:07:01.000
+    units: hPa
+    CalibrationType: Pressure
+    AnalogCalibration: [0.015081 1.011737]
+    AnalogCalibrationDate: 2012-04-20 14:51:02.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI5'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'TROSE_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 TROSE_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Rosemount Temperature
+    InstrumentDescription: Rosemount 102 Temperature
+    Used: True
+    VariableName: TROSE
+    long_name: Rosemount 102 Temperature
+    recoveryFactor: 0.972
+    SerialNumber: 34392
+    CalibrationCoefficients: [-50.563171  20.30251 ]
+    CalibrationDate: 2013-04-30 18:52:03.000
+    units: celsius
+    CalibrationType: Temperature
+    AnalogCalibration: [-0.007736  1.01127 ]
+    AnalogCalibrationDate: 2012-04-20 14:53:02.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI6'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'TRF_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 TRF_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Reverse Flow Temperature
+    InstrumentDescription: Reverse Flow Temperature
+    Used: True
+    VariableName: TRF
+    long_name: Reverse Flow Temperature
+    recoveryFactor: 0.6425
+    SerialNumber: 183
+    CalibrationCoefficients: [-49.921767  20.16485 ]
+    CalibrationDate: 2013-04-30 18:37:01.000
+    units: celsius
+    CalibrationType: Temperature
+    AnalogCalibration: [0.003496 1.011911]
+    AnalogCalibrationDate: 2012-04-20 14:55:01.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI7'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'GPS0B_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 GPS0B_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: GPSPPS
+    InstrumentDescription: GPS PPS signal
+    Used: True
+    VariableName: GPS0B
+    long_name: GPS 1 PPS 
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-09-04 20:32:00.000
+    units: volt
+    AnalogCalibration: [0.009177 1.011868]
+    AnalogCalibrationDate: 2012-04-20 14:56:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI8'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'GPS0D_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 GPS0D_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: GPSPPS
+    InstrumentDescription: GPS PPS signal
+    Used: True
+    VariableName: GPS0D
+    long_name: GPS 100 PPS
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-09-04 20:33:00.000
+    units: volt
+    AnalogCalibration: [0.006331 1.012292]
+    AnalogCalibrationDate: 2012-04-20 14:58:02.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI9'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'VRIP_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 VRIP_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: VRIP
+    InstrumentDescription: Rosemount Icing Probe
+    Used: True
+    VariableName: VRIP
+    long_name: Rosemount Icing Probe Voltage
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-09-15 05:21:00.000
+    units: volt
+    AnalogCalibration: [-2.710000e-04  1.011976e+00]
+    AnalogCalibrationDate: 2012-04-20 15:00:02.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI10'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'TURB_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 TURB_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: TURB
+    InstrumentDescription: MRI Turbulence
+    Used: True
+    VariableName: TURB
+    long_name: MRI Turbulence
+    CalibrationCoefficients: [0. 2.]
+    CalibrationDate: 2009-01-27 07:24:03.000
+    AnalogCalibration: [-0.008562  1.012638]
+    AnalogCalibrationDate: 2012-04-20 15:02:00.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI11'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'TDPEDGE_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 TDPEDGE_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: TDPEDGE
+    InstrumentDescription: Edgetech Vigilant 137
+    Used: True
+    VariableName: TDPEDGE
+    long_name: Edgetech dewpoint
+    CalibrationCoefficients: [-50.282407  20.310234]
+    CalibrationDate: 2013-04-30 19:03:04.000
+    units: celsius
+    CalibrationType: Temperature
+    AnalogCalibration: [-0.012615  1.012603]
+    AnalogCalibrationDate: 2012-04-20 15:04:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI12'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ZRAD_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 ZRAD_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: ZRAD
+    InstrumentDescription: Pilot Radar Altimeter
+    Used: True
+    VariableName: ZRAD
+    long_name: Pilot Radar Altimeter
+    CalibrationCoefficients: [   0. -250.]
+    CalibrationDate: 2009-10-15 05:07:04.000
+    units: feet
+    AnalogCalibration: [0.012754 1.012165]
+    AnalogCalibrationDate: 2012-04-20 15:06:02.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI13'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'LWC100_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 LWC100_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: LWC100
+    InstrumentDescription: L.W.C. Liquid Water Probe
+    Used: True
+    VariableName: LWC100
+    long_name: LWC 100 Liquid Water
+    SensorLength: 2.0
+    SensorLengthUnits: cm
+    SensorDiameterUnits: cm
+    SensorDiameter: 0.19
+    CalibrationCoefficients: [ 0. 10.]
+    CalibrationDate: 2009-01-26 22:02:05.000
+    units: watt
+    AnalogCalibration: [0.004786 1.01209 ]
+    AnalogCalibrationDate: 2012-04-20 15:08:02.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI14'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'TORQUE_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 TORQUE_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Torque
+    InstrumentDescription: Left engine torque
+    Used: True
+    VariableName: TORQUE
+    long_name: Left engine torque
+    CalibrationCoefficients: [-530.   274.4]
+    CalibrationDate: 2012-04-25 15:51:02.000
+    units: ft-lb
+    AnalogCalibration: [0.009833 1.012285]
+    AnalogCalibrationDate: 2012-04-20 15:19:03.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI16'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'PVMLWC_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 PVMLWC_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: PVM-100A
+    InstrumentDescription: Gerber PVM-100A liquid water probe
+    Used: True
+    VariableName: PVMLWC
+    long_name: PVM-100A liquid water content
+    OpticalOffset: 0.014
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2005-10-15 01:56:05.000
+    units: gram/m3
+    AnalogCalibration: [0.005871 1.011481]
+    AnalogCalibrationDate: 2012-04-20 15:22:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI18'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'PVMPSA_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 PVMPSA_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: PVM-100A
+    InstrumentDescription: Gerber PVM-100A liquid water probe
+    Used: True
+    VariableName: PVMPSA
+    long_name: PVM-100A particle surface area
+    OpticalOffset: 0.014
+    CalibrationCoefficients: [   0. 2980.]
+    CalibrationDate: 2005-10-15 01:54:01.000
+    units: cm2/m3
+    AnalogCalibration: [-0.009113  1.012155]
+    AnalogCalibrationDate: 2012-04-20 15:24:01.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI19'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'VLWCREF_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 VLWCREF_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: VLWCREF
+    long_name: Nevzorov LWC reference voltage
+    SampleAreaUnits: cm2
+    resistance: 3.356
+    SampleArea: 0.326
+    Nnumber: 2.426
+    SerialNumber: SN282
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 17:36:01.000
+    units: volt
+    AnalogCalibration: [0.004557 1.011624]
+    AnalogCalibrationDate: 2013-04-30 09:07:03.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI24'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'VLWCCOL_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 VLWCCOL_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: VLWCCOL
+    long_name: Nevzorov LWC collector voltage
+    Nnumber: 2.409
+    SampleAreaUnits: cm2
+    SampleArea: 0.326
+    resistance: 3.514
+    SerialNumber: SN282
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 17:37:01.000
+    units: volt
+    AnalogCalibration: [-0.009935  1.011884]
+    AnalogCalibrationDate: 2013-04-30 09:11:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI25'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'VTWCCOL_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 VTWCCOL_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: VTWCCOL
+    long_name: Nevzorov TWC collector voltage
+    Nnumber: 1.66
+    SampleArea: 0.502
+    resistance: 2.36
+    SampleAreaUnits: cm2
+    SerialNumber: SN282
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 17:37:04.000
+    units: volt
+    AnalogCalibration: [-0.008543  1.012339]
+    AnalogCalibrationDate: 2013-04-30 09:16:00.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI26'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'VTWCREF_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 VTWCREF_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: VTWCREF
+    long_name: Nevzorov TWC reference voltage
+    resistance: 3.181
+    SampleArea: 0.502
+    Nnumber: 2.277
+    SampleAreaUnits: cm2
+    SerialNumber: SN282
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2010-08-02 17:38:02.000
+    units: volt
+    AnalogCalibration: [0.001242 1.01208 ]
+    AnalogCalibrationDate: 2013-04-30 09:20:04.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI27'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ILWCREF_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 ILWCREF_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: ILWCREF
+    long_name: Nevzorov LWC reference current
+    Nnumber: 2.426
+    resistance: 3.356
+    SampleAreaUnits: cm2
+    SampleArea: 0.326
+    SerialNumber: SN282
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 17:41:05.000
+    units: amp
+    AnalogCalibration: [-0.006284  1.01157 ]
+    AnalogCalibrationDate: 2013-04-30 09:24:05.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI28'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ILWCCOL_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 ILWCCOL_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: ILWCCOL
+    long_name: Nevzorov LWC collector current
+    Nnumber: 2.409
+    SampleArea: 0.326
+    SampleAreaUnits: cm2
+    resistance: 3.514
+    SerialNumber: SN282
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 17:38:05.000
+    units: amp
+    AnalogCalibration: [0.006802 1.012244]
+    AnalogCalibrationDate: 2013-04-30 09:29:00.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI29'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ITWCCOL_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 ITWCCOL_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: ITWCCOL
+    long_name: Nevzorov TWC collector current
+    resistance: 2.128
+    SampleArea: 0.502
+    SampleAreaUnits: cm2
+    Nnumber: 1.66
+    SerialNumber: SN282
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 17:42:04.000
+    units: amp
+    AnalogCalibration: [-0.005498  1.01402 ]
+    AnalogCalibrationDate: 2012-04-20 15:45:02.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI30'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'ITWCREF_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 ITWCREF_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    DataType: Double
+    ExternalMin: -10.0
+    ExternalMax: 10.0
+    InternalGain: 1.0
+    InternalMax: 10.0
+    ExternalGain: 1.0
+    InternalMin: -10.0
+    ExternalCutoff: 200.0
+    DataTypeCode: 0.0
+    InternalCutoff: 40000.0
+    SampleRate: 1000.0
+    InstrumentName: Nevzorov
+    InstrumentDescription: Nevzorov Water Probe
+    Used: True
+    temperature: 90.0
+    location: NRL
+    VariableName: ITWCREF
+    long_name: Nevzorov TWC reference current
+    Nnumber: 2.277
+    SampleArea: 0.502
+    SampleAreaUnits: cm2
+    resistance: 3.181
+    SerialNumber: SN282
+    CalibrationCoefficients: [0.  0.5]
+    CalibrationDate: 2010-08-02 17:43:03.000
+    units: amp
+    AnalogCalibration: [-0.003846  1.01185 ]
+    AnalogCalibrationDate: 2012-04-20 15:46:05.000
+    tdms_name: /'Analog Input'/'dev6289-0-AI31'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'BOTMP1_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 BOTMP1_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Boom Oven
+    InstrumentDescription: Nose Boom Oven
+    Used: True
+    VariableName: BOTMP1
+    long_name: Boom Oven Temperature
+    CalibrationCoefficients: [ 0. 10.]
+    CalibrationDate: 2009-01-26 22:35:03.000
+    units: celsius
+    AnalogCalibration: [0.0065   1.012871]
+    AnalogCalibrationDate: 2012-04-20 15:50:05.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI0'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'BOTMP2_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 BOTMP2_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Boom Oven
+    InstrumentDescription: Nose Boom Oven
+    Used: True
+    VariableName: BOTMP2
+    long_name: Descicant Block Temperature
+    CalibrationCoefficients: [ 0. 10.]
+    CalibrationDate: 2009-01-26 22:40:02.000
+    units: celsius
+    AnalogCalibration: [0.009572 1.011949]
+    AnalogCalibrationDate: 2012-04-20 15:53:05.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI1'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'BOVOLT_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 BOVOLT_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Boom Oven
+    InstrumentDescription: Nose Boom Oven
+    Used: True
+    VariableName: BOVOLT
+    long_name: Boom Oven Voltage
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-10-15 04:56:03.000
+    units: volt
+    AnalogCalibration: [-0.00434  1.01173]
+    AnalogCalibrationDate: 2012-04-20 15:55:04.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI2'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'BOAMP_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 BOAMP_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Boom Oven
+    InstrumentDescription: Nose Boom Oven
+    Used: True
+    VariableName: BOAMP
+    long_name: Boom Heater Current
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-01-26 22:42:01.000
+    units: amp
+    AnalogCalibration: [-0.016729  1.012345]
+    AnalogCalibrationDate: 2012-04-20 15:57:04.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI3'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'CABINP_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 CABINP_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: CABINP
+    InstrumentDescription: Cabin Pressure
+    Used: True
+    VariableName: CABINP
+    long_name: Cabin Pressure Rosemount 1332
+    CalibrationCoefficients: [  3.570751 207.305138]
+    CalibrationDate: 2012-12-04 18:31:05.000
+    units: hPa
+    CalibrationType: Pressure
+    AnalogCalibration: [0.008014 1.010977]
+    AnalogCalibrationDate: 2012-04-20 15:59:01.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI4'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'HADSA_VT_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 HADSA_VT_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: HADS_A
+    InstrumentDescription: HADS Channel A Pressure
+    Used: True
+    VariableName: HADSA_VT
+    long_name: HADS channel A temperature correction
+    SerialNumber: 3038
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-10-27 18:49:00.000
+    units: volt
+    AnalogCalibration: [-0.013317  1.01178 ]
+    AnalogCalibrationDate: 2013-04-30 08:21:00.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI12'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'HADSA_VR_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 HADSA_VR_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: HADS_A
+    InstrumentDescription: HADS Channel A Pressure
+    Used: True
+    VariableName: HADSA_VR
+    long_name: HADS channel A temperature reference
+    SerialNumber: 3038
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-10-27 18:49:01.000
+    units: volt
+    AnalogCalibration: [0.012429 1.01225 ]
+    AnalogCalibrationDate: 2013-04-30 08:33:01.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI13'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'HADSB_VT_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 HADSB_VT_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: HADS_B
+    InstrumentDescription: HADS Channel B Pressure
+    Used: True
+    VariableName: HADSB_VT
+    long_name: HADS channel B temperature correction
+    SerialNumber: 405
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-10-27 18:49:02.000
+    units: volt
+    AnalogCalibration: [0.004907 1.011884]
+    AnalogCalibrationDate: 2013-04-30 08:37:00.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI14'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'HADSB_VR_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 HADSB_VR_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: HADS_B
+    InstrumentDescription: HADS Channel B Pressure
+    Used: True
+    VariableName: HADSB_VR
+    long_name: HADS channel B temperature reference
+    SerialNumber: 405
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-10-27 18:49:03.000
+    units: volt
+    AnalogCalibration: [-0.003012  1.01185 ]
+    AnalogCalibrationDate: 2013-04-30 08:41:00.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI15'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'PUMPPRES_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 PUMPPRES_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Gast Pump
+    InstrumentDescription: Gast Pump
+    Used: True
+    VariableName: PUMPPRES
+    long_name: Gast pump pressure
+    CalibrationType: Pressure
+    CalibrationCoefficients: [-102.906772  210.355368]
+    CalibrationDate: 2012-07-25 18:25:03.000
+    units: hPa
+    AnalogCalibration: [0.004037 1.012738]
+    AnalogCalibrationDate: 2012-04-20 16:28:02.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI19'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'H2O1S_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 H2O1S_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Licor 6262
+    InstrumentDescription: Licor 
+    Used: True
+    VariableName: H2O1S
+    long_name: Licor water vapor signal
+    AdditionalCoefficients: [ 4.06000e+01  6.14107e-03  2.69250e-06 -1.01777e-12]
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-10-22 19:59:05.000
+    units: volt
+    AnalogCalibration: [-0.003673  1.012002]
+    AnalogCalibrationDate: 2012-04-20 16:43:04.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI25'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'CO21S_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 CO21S_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Licor 6262
+    InstrumentDescription: Licor 
+    Used: True
+    VariableName: CO21S
+    long_name: Licor carbon dioxide signal
+    AdditionalCoefficients: [ 4.05000e+01  1.39912e-01  9.41623e-06  5.86510e-09 -6.75155e-13
+  4.05724e-17]
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-10-22 20:01:00.000
+    units: volt
+    AnalogCalibration: [-0.011406  1.011964]
+    AnalogCalibrationDate: 2012-04-20 16:45:02.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI26'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'LICORT_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 LICORT_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Licor 6262
+    InstrumentDescription: Licor 
+    Used: True
+    VariableName: LICORT
+    long_name: Licor temperature
+    CalibrationCoefficients: [ 0. 10.]
+    CalibrationDate: 2009-10-22 20:02:04.000
+    units: celsius
+    AnalogCalibration: [0.006214 1.012113]
+    AnalogCalibrationDate: 2012-04-20 16:46:05.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI27'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'LICORP_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 LICORP_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Licor 6262
+    InstrumentDescription: Licor 
+    Used: True
+    VariableName: LICORP
+    long_name: Licor pressure
+    CalibrationCoefficients: [-0.092372 20.9488  ]
+    CalibrationDate: 2012-07-25 18:04:04.000
+    units: kPa
+    CalibrationType: Pressure
+    AnalogCalibration: [-0.014881  1.01363 ]
+    AnalogCalibrationDate: 2012-04-20 16:49:00.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI28'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FLOWR_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 FLOWR_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Licor 6262
+    InstrumentDescription: Licor 
+    Used: True
+    VariableName: FLOWR
+    long_name: Licor reference flow
+    CalibrationCoefficients: [ 0. 20.]
+    CalibrationDate: 2009-10-22 20:08:03.000
+    units: sccm
+    AnalogCalibration: [-0.004834  1.01217 ]
+    AnalogCalibrationDate: 2012-04-20 16:52:03.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI30'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'FLOWI_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 FLOWI_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    InternalGain: 1.0
+    ExternalMax: 10.0
+    InternalMin: -10.0
+    InternalMax: 10.0
+    DataTypeCode: 0.0
+    ExternalGain: 1.0
+    ExternalCutoff: 200.0
+    DataType: Double
+    InternalCutoff: 40000.0
+    ExternalMin: -10.0
+    SampleRate: 1000.0
+    InstrumentName: Licor 6262
+    InstrumentDescription: Licor 
+    Used: True
+    VariableName: FLOWI
+    long_name: Licor Sample Flow
+    CalibrationCoefficients: [0. 2.]
+    CalibrationDate: 2009-12-04 18:07:01.000
+    units: slpm
+    AnalogCalibration: [0.014747 1.012922]
+    AnalogCalibrationDate: 2012-04-20 16:54:00.000
+    tdms_name: /'Analog Input'/'dev6289-1-AI31'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'RIPEV_RAW': <class 'netCDF4._netCDF4.Variable'>
+float32 RIPEV_RAW(time)
+    Status: Uncooked tape variable
+    OutputRate: 1
+    group: Analog Input
+    SCCModuleType: Voltage
+    DataType: Double
+    DataTypeCode: 0.0
+    SampleRate: 1000.0
+    InstrumentName: VRIP
+    InstrumentDescription: Rosemount Icing Probe
+    Used: True
+    VariableName: RIPEV
+    long_name: Rosemount Icing Event
+    CalibrationCoefficients: [0. 1.]
+    CalibrationDate: 2009-12-01 17:17:02.000
+    units: volt
+    AnalogCalibration: [0. 1.]
+    AnalogCalibrationDate: 1970-01-01 00:00:00.000
+    tdms_name: /'Analog Input'/'dev6289-2-AI10'
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'npart_2dp_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 npart_2dp_OBL(time)
+    long_name: PMS 2D-P # of particles
+    units: #
+    Status: PMS2D Derived Variable
+    Package: mat2d/pms
+    matlab_name: PD0.number
+    Dependencies:  
+    OutputRate: 1
+    probe: 2DP
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'CONC0_2dp_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 CONC0_2dp_OBL(time)
+    long_name: PMS 2D-P concentration
+    method: IX, svol corr IX/(32+IX) 
+    units: #/liter
+    Status: PMS2D Derived Variable
+    Package: mat2d/pms
+    matlab_name: PD0.concc
+    Dependencies:  
+    OutputRate: 1
+    probe: 2DP
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'CONC1_2dp_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 CONC1_2dp_OBL(time)
+    long_name: PMS 2D-P concentration
+    method: IY, all-in, svol corr IY/(30-IY)
+    units: #/liter
+    Status: PMS2D Derived Variable
+    Package: mat2d/pms
+    matlab_name: PD1.concc
+    Dependencies:  
+    OutputRate: 1
+    probe: 2DP
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'mass0_2dp_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 mass0_2dp_OBL(time)
+    long_name: PMS 2D-P mass concentration
+    method: IX, svol corr IX/(32+IX) 
+    units: gram/m3
+    Status: PMS2D Derived Variable
+    Package: mat2d/pms
+    matlab_name: PD0.massc
+    Dependencies:  
+    OutputRate: 1
+    probe: 2DP
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'mass1_2dp_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 mass1_2dp_OBL(time)
+    long_name: PMS 2D-P mass concentration
+    method: IY, all-in, svol corr IY/(30-IY)
+    units: gram/m3
+    Status: PMS2D Derived Variable
+    Package: mat2d/pms
+    matlab_name: PD1.massc
+    Dependencies:  
+    OutputRate: 1
+    probe: 2DP
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'mass2_2dp_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 mass2_2dp_OBL(time)
+    long_name: PMS 2D-P mass concentration
+    method: max(IX,IY), all-in, svol corr IY/(30-IY)
+    units: gram/m3
+    Status: PMS2D Derived Variable
+    Package: mat2d/pms
+    matlab_name: PD2.massc
+    Dependencies:  
+    OutputRate: 1
+    probe: 2DP
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'A2DP0_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 A2DP0_OBL(time)
+    long_name: PMS 2D_P number in cell
+    method: IX, no svol correction
+    units: #
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD0.specn)
+    LastBin: 15
+    OutputRate: 1
+    CellSizeUnits: micrometers
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'C2DP0_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 C2DP0_OBL(time)
+    long_name: PMS 2D_P cell concentration 
+    method: IX, svol corr IX/(32+IX)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD0.specc)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'C2DPsz0_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 C2DPsz0_OBL(time)
+    long_name: PMS 2D_P cell concentration 
+    method: IX, svol corr IX/(32+IX)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD0.specsz)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'A2DP1_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 A2DP1_OBL(time)
+    long_name: PMS 2D_P number in cell
+    method: IY (all-in), no svol correction
+    units: #
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD1.specn)
+    LastBin: 15
+    OutputRate: 1
+    CellSizeUnits: micrometers
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'C2DP1_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 C2DP1_OBL(time)
+    long_name: PMS 2D_P cell concentration 
+    method: IY (all-in), svol corr IY/(30-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD1.specc)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'C2DPsz1_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 C2DPsz1_OBL(time)
+    long_name: PMS 2D_P cell concentration 
+    method: IY (all-in), svol corr IY/(30-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD1.specsz)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'A2DP2_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 A2DP2_OBL(time)
+    long_name: PMS 2D_P number in cell
+    method: max(IX,IY), no svol correction
+    units: #
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD2.specn)
+    LastBin: 15
+    OutputRate: 1
+    CellSizeUnits: micrometers
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'C2DP2_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 C2DP2_OBL(time)
+    long_name: PMS 2D_P cell concentration 
+    method: max(IX,IY), IY all-in, svol corr IY/(30-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD2.specc)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'A2DPsz2_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 A2DPsz2_OBL(time)
+    long_name: PMS 2D_P number in cell
+    method: max(IX,IY), IY all-in, svol corr IY/(30-IY)
+    units: #
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD2.specszn)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'C2DPsz2_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 C2DPsz2_OBL(time)
+    long_name: PMS 2D_P cell concentration 
+    method: max(IX,IY), IY all-in, svol corr IY/(30-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -32767.0
+    matlab_name: add_bin0(PD2.specsz)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979,)
+filling on, 'T2DParrt_OBL': <class 'netCDF4._netCDF4.Variable'>
+float32 T2DParrt_OBL(time, sps1, Vec26)
+    long_name: PMS 2DP arrival times 
+    units: log10(seconds)
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: PD0.specarrt
+    CellSizeUnits: log10(seconds)
+    OutputRate: 1
+    CellSizes: [-8.  -7.5 -7.  -6.5 -6.  -5.5 -5.  -4.5 -4.  -3.5 -3.  -2.5 -2.  -1.5
+ -1.  -0.5  0.   0.5  1.   1.5  2.   2.5  3.   3.5  4.   4.5  5. ]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 26
+    _FillValue: -32767.0
+unlimited dimensions: 
+current shape = (5979, 1, 26)
+filling on, 'twodcip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 twodcip_IBR(time)
+    long_name: Fast2DC (aka CIP) *shadow OR* 
+    units: #/liter
+    Status: CIP2D Derived Variable
+    Package: mat2d/cip
+    matlab_name: twodcip
+    Dependencies:  
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'npart_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 npart_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) # of particles
+    units: #
+    Status: CIP2D Derived Variable
+    Package: mat2d/cip
+    matlab_name: CIPD0.number
+    Dependencies:  
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CONC0_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CONC0_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) concentration 
+    method: IX, svol corr IX/(64+IX)
+    units: #/liter
+    Status: CIP2D Derived Variable
+    Package: mat2d/cip
+    matlab_name: CIPD0.concc
+    Dependencies:  
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CONC1_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CONC1_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) concentration 
+    method: IY, all-in, svol corr IY/(62-IY)
+    units: #/liter
+    Status: CIP2D Derived Variable
+    Package: mat2d/cip
+    matlab_name: CIPD1.concc
+    Dependencies:  
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'mass0_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 mass0_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) mass concentration 
+    method: IX, svol corr IX/(64+IX)
+    units: gram/m3
+    Status: CIP2D Derived Variable
+    Package: mat2d/cip
+    matlab_name: CIPD0.massc
+    Dependencies:  
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'mass1_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 mass1_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) mass concentration 
+    method: IY, all-in, svol corr IY/(62-IY)
+    units: gram/m3
+    Status: CIP2D Derived Variable
+    Package: mat2d/cip
+    matlab_name: CIPD1.massc
+    Dependencies:  
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'mass2_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 mass2_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) mass concentration 
+    method: max(IX,IY), all-in, svol corr IY/(62-IY)
+    units: gram/m3
+    Status: CIP2D Derived Variable
+    Package: mat2d/cip
+    matlab_name: CIPD2.massc
+    Dependencies:  
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'ACIP0_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 ACIP0_IBR(time, sps1, Vec101)
+    long_name: Fast2DC (aka CIP) number in cell
+    method: IX, no svol correction
+    units: #
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD0.specn)
+    OutputRate: 1
+    CellSizeUnits: micrometers
+    CellSizes: [  12.5   37.5   62.5   87.5  112.5  137.5  162.5  187.5  212.5  237.5
+  262.5  287.5  312.5  337.5  362.5  387.5  412.5  437.5  462.5  487.5
+  512.5  537.5  562.5  587.5  612.5  637.5  662.5  687.5  712.5  737.5
+  762.5  787.5  812.5  837.5  862.5  887.5  912.5  937.5  962.5  987.5
+ 1012.5 1037.5 1062.5 1087.5 1112.5 1137.5 1162.5 1187.5 1212.5 1237.5
+ 1262.5 1287.5 1312.5 1337.5 1362.5 1387.5 1412.5 1437.5 1462.5 1487.5
+ 1512.5 1537.5 1562.5 1587.5 1612.5 1637.5 1662.5 1687.5 1712.5 1737.5
+ 1762.5 1787.5 1812.5 1837.5 1862.5 1887.5 1912.5 1937.5 1962.5 1987.5
+ 2012.5 2037.5 2062.5 2087.5 2112.5 2137.5 2162.5 2187.5 2212.5 2237.5
+ 2262.5 2287.5 2312.5 2337.5 2362.5 2387.5 2412.5 2437.5 2462.5 2487.5
+ 2512.5]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 101
+    FirstBin: 1
+    LastBin: 100
+unlimited dimensions: 
+current shape = (5979, 1, 101)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CCIP0_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CCIP0_IBR(time, sps1, Vec101)
+    long_name: Fast2DC (aka CIP) cell concentration 
+    method: IX, svol corr IX/(64+IX)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD0.specc)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    CellSizes: [  12.5   37.5   62.5   87.5  112.5  137.5  162.5  187.5  212.5  237.5
+  262.5  287.5  312.5  337.5  362.5  387.5  412.5  437.5  462.5  487.5
+  512.5  537.5  562.5  587.5  612.5  637.5  662.5  687.5  712.5  737.5
+  762.5  787.5  812.5  837.5  862.5  887.5  912.5  937.5  962.5  987.5
+ 1012.5 1037.5 1062.5 1087.5 1112.5 1137.5 1162.5 1187.5 1212.5 1237.5
+ 1262.5 1287.5 1312.5 1337.5 1362.5 1387.5 1412.5 1437.5 1462.5 1487.5
+ 1512.5 1537.5 1562.5 1587.5 1612.5 1637.5 1662.5 1687.5 1712.5 1737.5
+ 1762.5 1787.5 1812.5 1837.5 1862.5 1887.5 1912.5 1937.5 1962.5 1987.5
+ 2012.5 2037.5 2062.5 2087.5 2112.5 2137.5 2162.5 2187.5 2212.5 2237.5
+ 2262.5 2287.5 2312.5 2337.5 2362.5 2387.5 2412.5 2437.5 2462.5 2487.5
+ 2512.5]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 101
+    FirstBin: 1
+    LastBin: 100
+unlimited dimensions: 
+current shape = (5979, 1, 101)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CCIPsz0_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CCIPsz0_IBR(time, sps1, Vec16)
+    long_name: Fast2DC (aka CIP) cell concentration 
+    method: IX, svol corr IX/(64+IX)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD0.specsz)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    CellSizes: [  25.   50.  100.  150.  200.  250.  300.  400.  500.  600.  800. 1000.
+ 1250. 1500. 2000. 2500.]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 16
+    FirstBin: 1
+    LastBin: 15
+unlimited dimensions: 
+current shape = (5979, 1, 16)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'ACIP1_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 ACIP1_IBR(time, sps1, Vec62)
+    long_name: Fast2DC (aka CIP) number in cell
+    method: IY, all-in, no svol correction
+    units: #
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD1.specn)
+    OutputRate: 1
+    CellSizeUnits: micrometers
+    CellSizes: [  12.5   37.5   62.5   87.5  112.5  137.5  162.5  187.5  212.5  237.5
+  262.5  287.5  312.5  337.5  362.5  387.5  412.5  437.5  462.5  487.5
+  512.5  537.5  562.5  587.5  612.5  637.5  662.5  687.5  712.5  737.5
+  762.5  787.5  812.5  837.5  862.5  887.5  912.5  937.5  962.5  987.5
+ 1012.5 1037.5 1062.5 1087.5 1112.5 1137.5 1162.5 1187.5 1212.5 1237.5
+ 1262.5 1287.5 1312.5 1337.5 1362.5 1387.5 1412.5 1437.5 1462.5 1487.5
+ 1512.5 1537.5]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 62
+    FirstBin: 1
+    LastBin: 61
+unlimited dimensions: 
+current shape = (5979, 1, 62)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CCIP1_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CCIP1_IBR(time, sps1, Vec62)
+    long_name: Fast2DC (aka CIP) cell concentration 
+    method: IY, all-in, svol corr IY/(62-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD1.specc)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    CellSizes: [  12.5   37.5   62.5   87.5  112.5  137.5  162.5  187.5  212.5  237.5
+  262.5  287.5  312.5  337.5  362.5  387.5  412.5  437.5  462.5  487.5
+  512.5  537.5  562.5  587.5  612.5  637.5  662.5  687.5  712.5  737.5
+  762.5  787.5  812.5  837.5  862.5  887.5  912.5  937.5  962.5  987.5
+ 1012.5 1037.5 1062.5 1087.5 1112.5 1137.5 1162.5 1187.5 1212.5 1237.5
+ 1262.5 1287.5 1312.5 1337.5 1362.5 1387.5 1412.5 1437.5 1462.5 1487.5
+ 1512.5 1537.5]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 62
+    FirstBin: 1
+    LastBin: 61
+unlimited dimensions: 
+current shape = (5979, 1, 62)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CCIPsz1_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CCIPsz1_IBR(time, sps1, Vec14)
+    long_name: Fast2DC (aka CIP) cell concentration 
+    method: IY, all-in, svol corr IY/(62-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD1.specsz)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    CellSizes: [  25.   50.  100.  150.  200.  250.  300.  400.  500.  600.  800. 1000.
+ 1250. 1500.]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 14
+    FirstBin: 1
+    LastBin: 13
+unlimited dimensions: 
+current shape = (5979, 1, 14)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'ACIP2_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 ACIP2_IBR(time, sps1, Vec101)
+    long_name: Fast2DC (aka CIP) number in cell
+    method: max(IX,IY), IY all-in, no svol correction
+    units: #
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD2.specn)
+    OutputRate: 1
+    CellSizeUnits: micrometers
+    CellSizes: [  12.5   37.5   62.5   87.5  112.5  137.5  162.5  187.5  212.5  237.5
+  262.5  287.5  312.5  337.5  362.5  387.5  412.5  437.5  462.5  487.5
+  512.5  537.5  562.5  587.5  612.5  637.5  662.5  687.5  712.5  737.5
+  762.5  787.5  812.5  837.5  862.5  887.5  912.5  937.5  962.5  987.5
+ 1012.5 1037.5 1062.5 1087.5 1112.5 1137.5 1162.5 1187.5 1212.5 1237.5
+ 1262.5 1287.5 1312.5 1337.5 1362.5 1387.5 1412.5 1437.5 1462.5 1487.5
+ 1512.5 1537.5 1562.5 1587.5 1612.5 1637.5 1662.5 1687.5 1712.5 1737.5
+ 1762.5 1787.5 1812.5 1837.5 1862.5 1887.5 1912.5 1937.5 1962.5 1987.5
+ 2012.5 2037.5 2062.5 2087.5 2112.5 2137.5 2162.5 2187.5 2212.5 2237.5
+ 2262.5 2287.5 2312.5 2337.5 2362.5 2387.5 2412.5 2437.5 2462.5 2487.5
+ 2512.5]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 101
+    FirstBin: 1
+    LastBin: 100
+unlimited dimensions: 
+current shape = (5979, 1, 101)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CCIP2_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CCIP2_IBR(time, sps1, Vec101)
+    long_name: Fast2DC (aka CIP) cell concentration 
+    method: max(IX,IY), IY all-in, svol corr IY/(62-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD2.specc)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    CellSizes: [  12.5   37.5   62.5   87.5  112.5  137.5  162.5  187.5  212.5  237.5
+  262.5  287.5  312.5  337.5  362.5  387.5  412.5  437.5  462.5  487.5
+  512.5  537.5  562.5  587.5  612.5  637.5  662.5  687.5  712.5  737.5
+  762.5  787.5  812.5  837.5  862.5  887.5  912.5  937.5  962.5  987.5
+ 1012.5 1037.5 1062.5 1087.5 1112.5 1137.5 1162.5 1187.5 1212.5 1237.5
+ 1262.5 1287.5 1312.5 1337.5 1362.5 1387.5 1412.5 1437.5 1462.5 1487.5
+ 1512.5 1537.5 1562.5 1587.5 1612.5 1637.5 1662.5 1687.5 1712.5 1737.5
+ 1762.5 1787.5 1812.5 1837.5 1862.5 1887.5 1912.5 1937.5 1962.5 1987.5
+ 2012.5 2037.5 2062.5 2087.5 2112.5 2137.5 2162.5 2187.5 2212.5 2237.5
+ 2262.5 2287.5 2312.5 2337.5 2362.5 2387.5 2412.5 2437.5 2462.5 2487.5
+ 2512.5]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 101
+    FirstBin: 1
+    LastBin: 100
+unlimited dimensions: 
+current shape = (5979, 1, 101)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'ACIPsz2_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 ACIPsz2_IBR(time, sps1, Vec16)
+    long_name: Fast2DC (aka CIP) number in cell 
+    method: max(IX,IY), IY all-in, svol corr IY/(62-IY)
+    units: #
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD2.specszn)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CellSizes: [  25.   50.  100.  150.  200.  250.  300.  400.  500.  600.  800. 1000.
+ 1250. 1500. 2000. 2500.]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 16
+    FirstBin: 1
+    LastBin: 15
+unlimited dimensions: 
+current shape = (5979, 1, 16)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CCIPsz2_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CCIPsz2_IBR(time, sps1, Vec16)
+    long_name: Fast2DC (aka CIP) cell concentration 
+    method: max(IX,IY), IY all-in, svol corr IY/(62-IY)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: add_bin0(CIPD2.specsz)
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    CellSizes: [  25.   50.  100.  150.  200.  250.  300.  400.  500.  600.  800. 1000.
+ 1250. 1500. 2000. 2500.]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 16
+    FirstBin: 1
+    LastBin: 15
+unlimited dimensions: 
+current shape = (5979, 1, 16)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CIParrt_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CIParrt_IBR(time, sps1, Vec26)
+    long_name: Fast2DC (aka CIP) arrival times 
+    units: log10(seconds)
+    Category: PMS Probe
+    missing_value: -64767.0
+    matlab_name: CIPD0.specarrt
+    CellSizeUnits: log10(seconds)
+    OutputRate: 1
+    CellSizes: [-8.  -7.5 -7.  -6.5 -6.  -5.5 -5.  -4.5 -4.  -3.5 -3.  -2.5 -2.  -1.5
+ -1.  -0.5  0.   0.5  1.   1.5  2.   2.5  3.   3.5  4.   4.5  5. ]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 26
+unlimited dimensions: 
+current shape = (5979, 1, 26)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CONC0_mod_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CONC0_mod_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) concentration, first four bins ignored
+    method: IX, svol corr IX/(64+IX)
+    units: #/liter
+    Status: CIP2D Derived Variable
+    Package: Supplied by Jason Sulskis
+    Dependencies: 
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CONC1_mod_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CONC1_mod_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) concentration, first four bins ignored
+    method: IY, all-in, svol corr IY/(62-IY)
+    units: #/liter
+    Status: CIP2D Derived Variable
+    Package: Supplied by Jason Sulskis
+    Dependencies: 
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CONC2_mod_cip_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CONC2_mod_cip_IBR(time)
+    long_name: Fast2DC (aka CIP) concentration, first four bins ignored
+    method: max(IX,IY), IY all-in, svol corr IY/(62-IY)
+    units: #/liter
+    Status: CIP2D Derived Variable
+    Package: Supplied by Jason Sulskis
+    Dependencies: 
+    OutputRate: 1
+    probe: CIP
+unlimited dimensions: 
+current shape = (5979,)
+filling on, default _FillValue of 9.969209968386869e+36 used, 'CCIP0_mod_IBR': <class 'netCDF4._netCDF4.Variable'>
+float32 CCIP0_mod_IBR(Vec96)
+    long_name: Fast2DC (aka CIP) cell concentration,first 4 bins ignored
+    method: IX, svol corr IX/(64+IX)
+    units: #/liter
+    Category: PMS Probe
+    missing_value: -64767.0
+    CellSizeUnits: micrometers
+    OutputRate: 1
+    CorrDOFwater: yes
+    CellSizes: [ 137.5  162.5  187.5  212.5  237.5  262.5  287.5  312.5  337.5  362.5
+  387.5  412.5  437.5  462.5  487.5  512.5  537.5  562.5  587.5  612.5
+  637.5  662.5  687.5  712.5  737.5  762.5  787.5  812.5  837.5  862.5
+  887.5  912.5  937.5  962.5  987.5 1012.5 1037.5 1062.5 1087.5 1112.5
+ 1137.5 1162.5 1187.5 1212.5 1237.5 1262.5 1287.5 1312.5 1337.5 1362.5
+ 1387.5 1412.5 1437.5 1462.5 1487.5 1512.5 1537.5 1562.5 1587.5 1612.5
+ 1637.5 1662.5 1687.5 1712.5 1737.5 1762.5 1787.5 1812.5 1837.5 1862.5
+ 1887.5 1912.5 1937.5 1962.5 1987.5 2012.5 2037.5 2062.5 2087.5 2112.5
+ 2137.5 2162.5 2187.5 2212.5 2237.5 2262.5 2287.5 2312.5 2337.5 2362.5
+ 2387.5 2412.5 2437.5 2462.5 2487.5 2512.5]
+    CellSizesComment: CellSizes are bin edges
+    VectorLength: 96
+    FirstBin: 1
+    LastBin: 95
+unlimited dimensions: 
+current shape = (96,)
+filling on, default _FillValue of 9.969209968386869e+36 used}
